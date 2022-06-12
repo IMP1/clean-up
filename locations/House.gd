@@ -2,4 +2,4 @@ extends Spatial
 
 func _ready():
 	$ExternalWalls.visible = true
-	$Ceiling.visible = true
+	$Floor1.visible = true

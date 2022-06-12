@@ -599,5 +599,5 @@ distortion = 8.261
 ghost_count = 5
 ghost_spacing = 0.401
 halo_width = 0.25
-streak_strength = 0.0
+streak_strength = 0.186
 lens_dirt = ExtResource( 6 )

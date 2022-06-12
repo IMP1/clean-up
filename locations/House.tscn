@@ -1,4 +1,4 @@
-[gd_scene load_steps=68 format=2]
+[gd_scene load_steps=130 format=2]
 
 [ext_resource path="res://assets/modular_house_collection/Structure_Wall_Straight_Top.obj" type="ArrayMesh" id=1]
 [ext_resource path="res://assets/modular_house_collection/Structure_Wall_Straight_Base.obj" type="ArrayMesh" id=2]
@@ -20,11 +20,126 @@
 [ext_resource path="res://assets/modular_house_collection/Prop_Bedroom_Bed_Queen.obj" type="ArrayMesh" id=18]
 [ext_resource path="res://assets/modular_house_collection/Structure_Stairs_Curved.obj" type="ArrayMesh" id=19]
 [ext_resource path="res://assets/modular_house_collection/Structure_Stairs_Straight.obj" type="ArrayMesh" id=20]
+[ext_resource path="res://assets/modular_house_collection/Structure_Wall_Curved_Large_Main.obj" type="ArrayMesh" id=21]
+[ext_resource path="res://assets/modular_house_collection/Structure_Wall_Curved_Large_Top.obj" type="ArrayMesh" id=22]
 
-[sub_resource type="ConvexPolygonShape" id=48]
+[sub_resource type="ConvexPolygonShape" id=97]
+points = PoolVector3Array( 0.5, 0.15, -0.450005, 0.5, 0.15, -0.5, -0.5, 0.15, -0.450005, 0.5, 0.134994, -0.435006, 0.5, 0, -0.5, -0.5, 0.15, -0.5, -0.5, 0.134994, -0.435006, 0.5, 0.119988, -0.430007, 0.5, 0, -0.425, -0.5, 0, -0.5, -0.5, 0.119988, -0.430007, 0.5, 0.094998, -0.425, -0.5, 0, -0.425, -0.5, 0.094998, -0.425 )
+
+[sub_resource type="ConvexPolygonShape" id=98]
+points = PoolVector3Array( 0.5, 1, -0.45, 0.5, 1, -0.55, -0.5, 1, -0.45, 0.5, 0, -0.45, 0.5, 0, -0.55, -0.5, 1, -0.55, -0.5, 0, -0.45, -0.5, 0, -0.55 )
+
+[sub_resource type="ConvexPolygonShape" id=99]
+points = PoolVector3Array( 0.5, 0.8, -0.40001, 0.5, 0.8, -0.5, -0.5, 0.8, -0.40001, 0.5, 0.789986, -0.40001, 0.5, 0.5, -0.5, -0.5, 0.8, -0.5, -0.5, 0.789986, -0.40001, 0.5, 0.519998, -0.420008, 0.5, 0.5, -0.440006, -0.5, 0.5, -0.5, -0.5, 0.519998, -0.420008, -0.5, 0.5, -0.440006 )
+
+[sub_resource type="ConvexPolygonShape" id=85]
+points = PoolVector3Array( 0.5, 0.15, -0.450005, 0.5, 0.15, -0.5, -0.5, 0.15, -0.450005, 0.5, 0.134994, -0.435006, 0.5, 0, -0.5, -0.5, 0.15, -0.5, -0.5, 0.134994, -0.435006, 0.5, 0.119988, -0.430007, 0.5, 0, -0.425, -0.5, 0, -0.5, -0.5, 0.119988, -0.430007, 0.5, 0.094998, -0.425, -0.5, 0, -0.425, -0.5, 0.094998, -0.425 )
+
+[sub_resource type="ConvexPolygonShape" id=86]
+points = PoolVector3Array( 0.5, 1, -0.45, 0.5, 1, -0.55, -0.5, 1, -0.45, 0.5, 0, -0.45, 0.5, 0, -0.55, -0.5, 1, -0.55, -0.5, 0, -0.45, -0.5, 0, -0.55 )
+
+[sub_resource type="ConvexPolygonShape" id=87]
+points = PoolVector3Array( 0.5, 0.8, -0.40001, 0.5, 0.8, -0.5, -0.5, 0.8, -0.40001, 0.5, 0.789986, -0.40001, 0.5, 0.5, -0.5, -0.5, 0.8, -0.5, -0.5, 0.789986, -0.40001, 0.5, 0.519998, -0.420008, 0.5, 0.5, -0.440006, -0.5, 0.5, -0.5, -0.5, 0.519998, -0.420008, -0.5, 0.5, -0.440006 )
+
+[sub_resource type="ConvexPolygonShape" id=88]
+points = PoolVector3Array( 0.5, 0.15, -0.450005, 0.5, 0.15, -0.5, -0.5, 0.15, -0.450005, 0.5, 0.134994, -0.435006, 0.5, 0, -0.5, -0.5, 0.15, -0.5, -0.5, 0.134994, -0.435006, 0.5, 0.119988, -0.430007, 0.5, 0, -0.425, -0.5, 0, -0.5, -0.5, 0.119988, -0.430007, 0.5, 0.094998, -0.425, -0.5, 0, -0.425, -0.5, 0.094998, -0.425 )
+
+[sub_resource type="ConvexPolygonShape" id=89]
+points = PoolVector3Array( 0.5, 1, -0.45, 0.5, 1, -0.55, -0.5, 1, -0.45, 0.5, 0, -0.45, 0.5, 0, -0.55, -0.5, 1, -0.55, -0.5, 0, -0.45, -0.5, 0, -0.55 )
+
+[sub_resource type="ConvexPolygonShape" id=90]
+points = PoolVector3Array( 0.5, 0.8, -0.40001, 0.5, 0.8, -0.5, -0.5, 0.8, -0.40001, 0.5, 0.789986, -0.40001, 0.5, 0.5, -0.5, -0.5, 0.8, -0.5, -0.5, 0.789986, -0.40001, 0.5, 0.519998, -0.420008, 0.5, 0.5, -0.440006, -0.5, 0.5, -0.5, -0.5, 0.519998, -0.420008, -0.5, 0.5, -0.440006 )
+
+[sub_resource type="ConvexPolygonShape" id=91]
+points = PoolVector3Array( 0.5, 0.15, -0.450005, 0.5, 0.15, -0.5, -0.5, 0.15, -0.450005, 0.5, 0.134994, -0.435006, 0.5, 0, -0.5, -0.5, 0.15, -0.5, -0.5, 0.134994, -0.435006, 0.5, 0.119988, -0.430007, 0.5, 0, -0.425, -0.5, 0, -0.5, -0.5, 0.119988, -0.430007, 0.5, 0.094998, -0.425, -0.5, 0, -0.425, -0.5, 0.094998, -0.425 )
+
+[sub_resource type="ConvexPolygonShape" id=92]
+points = PoolVector3Array( 0.5, 1, -0.45, 0.5, 1, -0.55, -0.5, 1, -0.45, 0.5, 0, -0.45, 0.5, 0, -0.55, -0.5, 1, -0.55, -0.5, 0, -0.45, -0.5, 0, -0.55 )
+
+[sub_resource type="ConvexPolygonShape" id=93]
+points = PoolVector3Array( 0.5, 0.8, -0.40001, 0.5, 0.8, -0.5, -0.5, 0.8, -0.40001, 0.5, 0.789986, -0.40001, 0.5, 0.5, -0.5, -0.5, 0.8, -0.5, -0.5, 0.789986, -0.40001, 0.5, 0.519998, -0.420008, 0.5, 0.5, -0.440006, -0.5, 0.5, -0.5, -0.5, 0.519998, -0.420008, -0.5, 0.5, -0.440006 )
+
+[sub_resource type="ConvexPolygonShape" id=94]
+points = PoolVector3Array( 0.5, 0.15, -0.450005, 0.5, 0.15, -0.5, -0.5, 0.15, -0.450005, 0.5, 0.134994, -0.435006, 0.5, 0, -0.5, -0.5, 0.15, -0.5, -0.5, 0.134994, -0.435006, 0.5, 0.119988, -0.430007, 0.5, 0, -0.425, -0.5, 0, -0.5, -0.5, 0.119988, -0.430007, 0.5, 0.094998, -0.425, -0.5, 0, -0.425, -0.5, 0.094998, -0.425 )
+
+[sub_resource type="ConvexPolygonShape" id=95]
+points = PoolVector3Array( 0.5, 1, -0.45, 0.5, 1, -0.55, -0.5, 1, -0.45, 0.5, 0, -0.45, 0.5, 0, -0.55, -0.5, 1, -0.55, -0.5, 0, -0.45, -0.5, 0, -0.55 )
+
+[sub_resource type="ConvexPolygonShape" id=96]
+points = PoolVector3Array( 0.5, 0.8, -0.40001, 0.5, 0.8, -0.5, -0.5, 0.8, -0.40001, 0.5, 0.789986, -0.40001, 0.5, 0.5, -0.5, -0.5, 0.8, -0.5, -0.5, 0.789986, -0.40001, 0.5, 0.519998, -0.420008, 0.5, 0.5, -0.440006, -0.5, 0.5, -0.5, -0.5, 0.519998, -0.420008, -0.5, 0.5, -0.440006 )
+
+[sub_resource type="ConvexPolygonShape" id=100]
+points = PoolVector3Array( 0.5, 0.15, -0.450005, 0.5, 0.15, -0.5, -0.5, 0.15, -0.450005, 0.5, 0.134994, -0.435006, 0.5, 0, -0.5, -0.5, 0.15, -0.5, -0.5, 0.134994, -0.435006, 0.5, 0.119988, -0.430007, 0.5, 0, -0.425, -0.5, 0, -0.5, -0.5, 0.119988, -0.430007, 0.5, 0.094998, -0.425, -0.5, 0, -0.425, -0.5, 0.094998, -0.425 )
+
+[sub_resource type="ConvexPolygonShape" id=101]
+points = PoolVector3Array( 0.5, 1, -0.45, 0.5, 1, -0.55, -0.5, 1, -0.45, 0.5, 0, -0.45, 0.5, 0, -0.55, -0.5, 1, -0.55, -0.5, 0, -0.45, -0.5, 0, -0.55 )
+
+[sub_resource type="ConvexPolygonShape" id=102]
+points = PoolVector3Array( 0.5, 0.8, -0.40001, 0.5, 0.8, -0.5, -0.5, 0.8, -0.40001, 0.5, 0.789986, -0.40001, 0.5, 0.5, -0.5, -0.5, 0.8, -0.5, -0.5, 0.789986, -0.40001, 0.5, 0.519998, -0.420008, 0.5, 0.5, -0.440006, -0.5, 0.5, -0.5, -0.5, 0.519998, -0.420008, -0.5, 0.5, -0.440006 )
+
+[sub_resource type="ConvexPolygonShape" id=103]
+points = PoolVector3Array( 0.5, 0.15, -0.450005, 0.5, 0.15, -0.5, -0.5, 0.15, -0.450005, 0.5, 0.134994, -0.435006, 0.5, 0, -0.5, -0.5, 0.15, -0.5, -0.5, 0.134994, -0.435006, 0.5, 0.119988, -0.430007, 0.5, 0, -0.425, -0.5, 0, -0.5, -0.5, 0.119988, -0.430007, 0.5, 0.094998, -0.425, -0.5, 0, -0.425, -0.5, 0.094998, -0.425 )
+
+[sub_resource type="ConvexPolygonShape" id=104]
+points = PoolVector3Array( 0.5, 1, -0.45, 0.5, 1, -0.55, -0.5, 1, -0.45, 0.5, 0, -0.45, 0.5, 0, -0.55, -0.5, 1, -0.55, -0.5, 0, -0.45, -0.5, 0, -0.55 )
+
+[sub_resource type="ConvexPolygonShape" id=105]
+points = PoolVector3Array( 0.5, 0.8, -0.40001, 0.5, 0.8, -0.5, -0.5, 0.8, -0.40001, 0.5, 0.789986, -0.40001, 0.5, 0.5, -0.5, -0.5, 0.8, -0.5, -0.5, 0.789986, -0.40001, 0.5, 0.519998, -0.420008, 0.5, 0.5, -0.440006, -0.5, 0.5, -0.5, -0.5, 0.519998, -0.420008, -0.5, 0.5, -0.440006 )
+
+[sub_resource type="ConvexPolygonShape" id=106]
+points = PoolVector3Array( 0.5, 0.15, -0.450005, 0.5, 0.15, -0.5, -0.5, 0.15, -0.450005, 0.5, 0.134994, -0.435006, 0.5, 0, -0.5, -0.5, 0.15, -0.5, -0.5, 0.134994, -0.435006, 0.5, 0.119988, -0.430007, 0.5, 0, -0.425, -0.5, 0, -0.5, -0.5, 0.119988, -0.430007, 0.5, 0.094998, -0.425, -0.5, 0, -0.425, -0.5, 0.094998, -0.425 )
+
+[sub_resource type="ConvexPolygonShape" id=107]
+points = PoolVector3Array( 0.5, 1, -0.45, 0.5, 1, -0.55, -0.5, 1, -0.45, 0.5, 0, -0.45, 0.5, 0, -0.55, -0.5, 1, -0.55, -0.5, 0, -0.45, -0.5, 0, -0.55 )
+
+[sub_resource type="ConvexPolygonShape" id=108]
+points = PoolVector3Array( 0.5, 0.8, -0.40001, 0.5, 0.8, -0.5, -0.5, 0.8, -0.40001, 0.5, 0.789986, -0.40001, 0.5, 0.5, -0.5, -0.5, 0.8, -0.5, -0.5, 0.789986, -0.40001, 0.5, 0.519998, -0.420008, 0.5, 0.5, -0.440006, -0.5, 0.5, -0.5, -0.5, 0.519998, -0.420008, -0.5, 0.5, -0.440006 )
+
+[sub_resource type="ConvexPolygonShape" id=109]
+points = PoolVector3Array( 0.5, 0.15, -0.450005, 0.5, 0.15, -0.5, -0.5, 0.15, -0.450005, 0.5, 0.134994, -0.435006, 0.5, 0, -0.5, -0.5, 0.15, -0.5, -0.5, 0.134994, -0.435006, 0.5, 0.119988, -0.430007, 0.5, 0, -0.425, -0.5, 0, -0.5, -0.5, 0.119988, -0.430007, 0.5, 0.094998, -0.425, -0.5, 0, -0.425, -0.5, 0.094998, -0.425 )
+
+[sub_resource type="ConvexPolygonShape" id=110]
+points = PoolVector3Array( 0.5, 1, -0.45, 0.5, 1, -0.55, -0.5, 1, -0.45, 0.5, 0, -0.45, 0.5, 0, -0.55, -0.5, 1, -0.55, -0.5, 0, -0.45, -0.5, 0, -0.55 )
+
+[sub_resource type="ConvexPolygonShape" id=111]
+points = PoolVector3Array( 0.5, 0.8, -0.40001, 0.5, 0.8, -0.5, -0.5, 0.8, -0.40001, 0.5, 0.789986, -0.40001, 0.5, 0.5, -0.5, -0.5, 0.8, -0.5, -0.5, 0.789986, -0.40001, 0.5, 0.519998, -0.420008, 0.5, 0.5, -0.440006, -0.5, 0.5, -0.5, -0.5, 0.519998, -0.420008, -0.5, 0.5, -0.440006 )
+
+[sub_resource type="ConvexPolygonShape" id=112]
+points = PoolVector3Array( 0.5, 0.15, -0.450005, 0.5, 0.15, -0.5, -0.5, 0.15, -0.450005, 0.5, 0.134994, -0.435006, 0.5, 0, -0.5, -0.5, 0.15, -0.5, -0.5, 0.134994, -0.435006, 0.5, 0.119988, -0.430007, 0.5, 0, -0.425, -0.5, 0, -0.5, -0.5, 0.119988, -0.430007, 0.5, 0.094998, -0.425, -0.5, 0, -0.425, -0.5, 0.094998, -0.425 )
+
+[sub_resource type="ConvexPolygonShape" id=113]
+points = PoolVector3Array( 0.5, 1, -0.45, 0.5, 1, -0.55, -0.5, 1, -0.45, 0.5, 0, -0.45, 0.5, 0, -0.55, -0.5, 1, -0.55, -0.5, 0, -0.45, -0.5, 0, -0.55 )
+
+[sub_resource type="ConvexPolygonShape" id=114]
+points = PoolVector3Array( 0.5, 0.8, -0.40001, 0.5, 0.8, -0.5, -0.5, 0.8, -0.40001, 0.5, 0.789986, -0.40001, 0.5, 0.5, -0.5, -0.5, 0.8, -0.5, -0.5, 0.789986, -0.40001, 0.5, 0.519998, -0.420008, 0.5, 0.5, -0.440006, -0.5, 0.5, -0.5, -0.5, 0.519998, -0.420008, -0.5, 0.5, -0.440006 )
+
+[sub_resource type="ConvexPolygonShape" id=57]
 points = PoolVector3Array( -0.5, -0.2, -0.5, -0.5, 0, -0.5, 0.5, -0.2, -0.5, -0.5, -0.2, 0.5, -0.5, 0, 0.5, 0.5, 0, -0.5, 0.5, -0.2, 0.5, 0.5, 0, 0.5 )
 
-[sub_resource type="ConvexPolygonShape" id=2]
+[sub_resource type="ConvexPolygonShape" id=80]
+points = PoolVector3Array( -0.5, -0.2, -0.5, -0.5, 0, -0.5, 0.5, -0.2, -0.5, -0.5, -0.2, 0.5, -0.5, 0, 0.5, 0.5, 0, -0.5, 0.5, -0.2, 0.5, 0.5, 0, 0.5 )
+
+[sub_resource type="ConvexPolygonShape" id=81]
+points = PoolVector3Array( -0.5, -0.2, -0.5, -0.5, 0, -0.5, 0.5, -0.2, -0.5, -0.5, -0.2, 0.5, -0.5, 0, 0.5, 0.5, 0, -0.5, 0.5, -0.2, 0.5, 0.5, 0, 0.5 )
+
+[sub_resource type="ConvexPolygonShape" id=84]
+points = PoolVector3Array( -0.5, -0.2, -0.5, -0.5, 0, -0.5, 0.5, -0.2, -0.5, -0.5, -0.2, 0.5, -0.5, 0, 0.5, 0.5, 0, -0.5, 0.5, -0.2, 0.5, 0.5, 0, 0.5 )
+
+[sub_resource type="ConvexPolygonShape" id=83]
+points = PoolVector3Array( -0.5, -0.2, -0.5, -0.5, 0, -0.5, 0.5, -0.2, -0.5, -0.5, -0.2, 0.5, -0.5, 0, 0.5, 0.5, 0, -0.5, 0.5, -0.2, 0.5, 0.5, 0, 0.5 )
+
+[sub_resource type="SpatialMaterial" id=2]
+resource_name = "Dark_Wood"
+albedo_color = Color( 0.5098, 0.3843, 0.2902, 1 )
+metallic = 1.0
+
+[sub_resource type="ConvexPolygonShape" id=115]
+points = PoolVector3Array( -0.5, -0.2, -0.5, -0.5, 0, -0.5, 0.5, -0.2, -0.5, -0.5, -0.2, 0.5, -0.5, 0, 0.5, 0.5, 0, -0.5, 0.5, -0.2, 0.5, 0.5, 0, 0.5 )
+
+[sub_resource type="ConvexPolygonShape" id=116]
+points = PoolVector3Array( -0.5, -0.2, -0.5, -0.5, 0, -0.5, 0.5, -0.2, -0.5, -0.5, -0.2, 0.5, -0.5, 0, 0.5, 0.5, 0, -0.5, 0.5, -0.2, 0.5, 0.5, 0, 0.5 )
+
+[sub_resource type="ConvexPolygonShape" id=117]
 points = PoolVector3Array( -0.5, -0.2, -0.5, -0.5, 0, -0.5, 0.5, -0.2, -0.5, -0.5, -0.2, 0.5, -0.5, 0, 0.5, 0.5, 0, -0.5, 0.5, -0.2, 0.5, 0.5, 0, 0.5 )
 
 [sub_resource type="ConvexPolygonShape" id=5]
@@ -152,13 +267,22 @@ points = PoolVector3Array( -0.4, 0, -0.550018, 0.312529, 0.862216, -0.633485, 0.
 [sub_resource type="ConvexPolygonShape" id=47]
 points = PoolVector3Array( 1.075, 0.947249, 1.30295, 1.0548, 1.10512, 1.30477, 1.0529, 0.947249, 1.325, 1.075, 0.547289, 1.30295, 1.075, 1.10512, 1.27001, 1.04385, 1.14467, 1.2975, 1.01607, 1.14467, 1.31488, 1.02007, 1.10512, 1.325, 1.0529, 0.547289, 1.325, 1.02323, 0.147639, 1.30606, 1.05606, 0.147639, 1.27312, 1.075, 0.397634, 1.2809, 1.05985, 1.14467, 1.26715, 1.075, 1.50508, -1.23006, 1.05985, 1.54463, -1.23265, 1.02744, 1.17367, 1.27727, 1.03733, 1.17367, 1.25989, -1.01628, 1.14467, 1.31488, 1.00997, 1.17367, 1.28739, -1.02028, 1.10512, 1.325, 1.03102, 0.397634, 1.325, -1.02344, 0.147639, 1.30606, 1.01376, 0, 1.28324, 1.03312, 0, 1.26378, 1.05606, 0.147639, -1.27338, 1.075, 0.397634, -1.28116, 1.075, 1.50508, -1.27027, 1.05985, 1.54463, -1.26741, 1.03733, 1.57363, -1.24018, 1.02744, 1.57363, -1.2228, 0.999868, 1.58418, -1.25003, 0.999868, 1.18422, 1.24977, -1.01018, 1.17367, 1.28739, -1.02765, 1.17367, 1.27727, -1.04406, 1.14467, 1.2975, -1.05501, 1.10512, 1.30477, -1.05311, 0.947249, 1.325, -1.03123, 0.397634, 1.325, -1.01397, 0, 1.28324, -1.05311, 0.547289, 1.325, -1.05627, 0.147639, 1.27312, 1.03312, 0, -1.26404, 1.01376, 0, -1.2835, 1.02323, 0.147639, -1.30632, 1.075, 0.547289, -1.30321, 1.075, 1.34721, -1.30321, 1.0548, 1.50508, -1.30503, 1.04385, 1.54463, -1.29776, 1.03733, 1.57363, -1.26015, 1.02744, 1.57363, -1.27753, 1.00997, 1.57363, -1.28765, -1.00008, 1.58418, -1.25003, -1.00008, 1.18422, 1.24977, -1.02765, 1.57363, -1.2228, -1.03754, 1.17367, 1.25989, -1.06006, 1.14467, 1.26715, -1.075, 1.10512, 1.27001, -1.075, 0.947249, 1.30295, -1.03333, 0, 1.26378, -1.075, 0.547289, 1.30295, -1.075, 0.397634, 1.2809, -1.05627, 0.147639, -1.27338, -1.01397, 0, -1.2835, -1.02344, 0.147639, -1.30632, 1.03102, 0.397634, -1.325, 1.0529, 0.547289, -1.325, 1.0529, 1.34721, -1.325, 1.02007, 1.50508, -1.325, 1.01607, 1.54463, -1.31514, -1.01018, 1.57363, -1.28765, -1.02765, 1.57363, -1.27753, -1.03754, 1.57363, -1.26015, -1.03754, 1.57363, -1.24018, -1.06006, 1.54463, -1.23265, -1.075, 1.50508, -1.23006, -1.03333, 0, -1.26404, -1.075, 0.397634, -1.28116, -1.075, 0.547289, -1.30321, -1.05311, 0.547289, -1.325, -1.03123, 0.397634, -1.325, -1.02028, 1.50508, -1.325, -1.01628, 1.54463, -1.31514, -1.04406, 1.54463, -1.29776, -1.06006, 1.54463, -1.26741, -1.075, 1.50508, -1.27027, -1.075, 1.34721, -1.30321, -1.05311, 1.34721, -1.325, -1.05501, 1.50508, -1.30503 )
 
-[sub_resource type="ConvexPolygonShape" id=49]
+[sub_resource type="ConvexPolygonShape" id=118]
 points = PoolVector3Array( 0.5, 0.15, -0.450005, 0.5, 0.15, -0.5, -0.5, 0.15, -0.450005, 0.5, 0.134994, -0.435006, 0.5, 0, -0.5, -0.5, 0.15, -0.5, -0.5, 0.134994, -0.435006, 0.5, 0.119988, -0.430007, 0.5, 0, -0.425, -0.5, 0, -0.5, -0.5, 0.119988, -0.430007, 0.5, 0.094998, -0.425, -0.5, 0, -0.425, -0.5, 0.094998, -0.425 )
 
-[sub_resource type="ConvexPolygonShape" id=50]
+[sub_resource type="ConvexPolygonShape" id=119]
 points = PoolVector3Array( 0.5, 1, -0.45, 0.5, 1, -0.55, -0.5, 1, -0.45, 0.5, 0, -0.45, 0.5, 0, -0.55, -0.5, 1, -0.55, -0.5, 0, -0.45, -0.5, 0, -0.55 )
 
-[sub_resource type="ConvexPolygonShape" id=51]
+[sub_resource type="ConvexPolygonShape" id=120]
+points = PoolVector3Array( 0.5, 0.8, -0.40001, 0.5, 0.8, -0.5, -0.5, 0.8, -0.40001, 0.5, 0.789986, -0.40001, 0.5, 0.5, -0.5, -0.5, 0.8, -0.5, -0.5, 0.789986, -0.40001, 0.5, 0.519998, -0.420008, 0.5, 0.5, -0.440006, -0.5, 0.5, -0.5, -0.5, 0.519998, -0.420008, -0.5, 0.5, -0.440006 )
+
+[sub_resource type="ConvexPolygonShape" id=61]
+points = PoolVector3Array( 0.5, 0.15, -0.450005, 0.5, 0.15, -0.5, -0.5, 0.15, -0.450005, 0.5, 0.134994, -0.435006, 0.5, 0, -0.5, -0.5, 0.15, -0.5, -0.5, 0.134994, -0.435006, 0.5, 0.119988, -0.430007, 0.5, 0, -0.425, -0.5, 0, -0.5, -0.5, 0.119988, -0.430007, 0.5, 0.094998, -0.425, -0.5, 0, -0.425, -0.5, 0.094998, -0.425 )
+
+[sub_resource type="ConvexPolygonShape" id=62]
+points = PoolVector3Array( 0.5, 1, -0.45, 0.5, 1, -0.55, -0.5, 1, -0.45, 0.5, 0, -0.45, 0.5, 0, -0.55, -0.5, 1, -0.55, -0.5, 0, -0.45, -0.5, 0, -0.55 )
+
+[sub_resource type="ConvexPolygonShape" id=63]
 points = PoolVector3Array( 0.5, 0.8, -0.40001, 0.5, 0.8, -0.5, -0.5, 0.8, -0.40001, 0.5, 0.789986, -0.40001, 0.5, 0.5, -0.5, -0.5, 0.8, -0.5, -0.5, 0.789986, -0.40001, 0.5, 0.519998, -0.420008, 0.5, 0.5, -0.440006, -0.5, 0.5, -0.5, -0.5, 0.519998, -0.420008, -0.5, 0.5, -0.440006 )
 
 [sub_resource type="ConvexPolygonShape" id=52]
@@ -170,19 +294,428 @@ points = PoolVector3Array( 0.5, 1, -0.45, 0.5, 1, -0.55, -0.5, 1, -0.45, 0.5, 0,
 [sub_resource type="ConvexPolygonShape" id=54]
 points = PoolVector3Array( 0.5, 0.8, -0.40001, 0.5, 0.8, -0.5, -0.5, 0.8, -0.40001, 0.5, 0.789986, -0.40001, 0.5, 0.5, -0.5, -0.5, 0.8, -0.5, -0.5, 0.789986, -0.40001, 0.5, 0.519998, -0.420008, 0.5, 0.5, -0.440006, -0.5, 0.5, -0.5, -0.5, 0.519998, -0.420008, -0.5, 0.5, -0.440006 )
 
-[sub_resource type="ConvexPolygonShape" id=55]
+[sub_resource type="ConvexPolygonShape" id=65]
+points = PoolVector3Array( 0.5, 0.15, -0.450005, 0.5, 0.15, -0.5, -0.5, 0.15, -0.450005, 0.5, 0.134994, -0.435006, 0.5, 0, -0.5, -0.5, 0.15, -0.5, -0.5, 0.134994, -0.435006, 0.5, 0.119988, -0.430007, 0.5, 0, -0.425, -0.5, 0, -0.5, -0.5, 0.119988, -0.430007, 0.5, 0.094998, -0.425, -0.5, 0, -0.425, -0.5, 0.094998, -0.425 )
+
+[sub_resource type="ConvexPolygonShape" id=66]
+points = PoolVector3Array( 0.5, 1, -0.45, 0.5, 1, -0.55, -0.5, 1, -0.45, 0.5, 0, -0.45, 0.5, 0, -0.55, -0.5, 1, -0.55, -0.5, 0, -0.45, -0.5, 0, -0.55 )
+
+[sub_resource type="ConvexPolygonShape" id=67]
+points = PoolVector3Array( 0.5, 0.8, -0.40001, 0.5, 0.8, -0.5, -0.5, 0.8, -0.40001, 0.5, 0.789986, -0.40001, 0.5, 0.5, -0.5, -0.5, 0.8, -0.5, -0.5, 0.789986, -0.40001, 0.5, 0.519998, -0.420008, 0.5, 0.5, -0.440006, -0.5, 0.5, -0.5, -0.5, 0.519998, -0.420008, -0.5, 0.5, -0.440006 )
+
+[sub_resource type="ConvexPolygonShape" id=68]
+points = PoolVector3Array( 0.5, 0.15, -0.450005, 0.5, 0.15, -0.5, -0.5, 0.15, -0.450005, 0.5, 0.134994, -0.435006, 0.5, 0, -0.5, -0.5, 0.15, -0.5, -0.5, 0.134994, -0.435006, 0.5, 0.119988, -0.430007, 0.5, 0, -0.425, -0.5, 0, -0.5, -0.5, 0.119988, -0.430007, 0.5, 0.094998, -0.425, -0.5, 0, -0.425, -0.5, 0.094998, -0.425 )
+
+[sub_resource type="ConvexPolygonShape" id=69]
+points = PoolVector3Array( 0.5, 1, -0.45, 0.5, 1, -0.55, -0.5, 1, -0.45, 0.5, 0, -0.45, 0.5, 0, -0.55, -0.5, 1, -0.55, -0.5, 0, -0.45, -0.5, 0, -0.55 )
+
+[sub_resource type="ConvexPolygonShape" id=70]
+points = PoolVector3Array( 0.5, 0.8, -0.40001, 0.5, 0.8, -0.5, -0.5, 0.8, -0.40001, 0.5, 0.789986, -0.40001, 0.5, 0.5, -0.5, -0.5, 0.8, -0.5, -0.5, 0.789986, -0.40001, 0.5, 0.519998, -0.420008, 0.5, 0.5, -0.440006, -0.5, 0.5, -0.5, -0.5, 0.519998, -0.420008, -0.5, 0.5, -0.440006 )
+
+[sub_resource type="ConvexPolygonShape" id=74]
+points = PoolVector3Array( 0.5, 0.15, -0.450005, 0.5, 0.15, -0.5, -0.5, 0.15, -0.450005, 0.5, 0.134994, -0.435006, 0.5, 0, -0.5, -0.5, 0.15, -0.5, -0.5, 0.134994, -0.435006, 0.5, 0.119988, -0.430007, 0.5, 0, -0.425, -0.5, 0, -0.5, -0.5, 0.119988, -0.430007, 0.5, 0.094998, -0.425, -0.5, 0, -0.425, -0.5, 0.094998, -0.425 )
+
+[sub_resource type="ConvexPolygonShape" id=75]
+points = PoolVector3Array( 0.5, 1, -0.45, 0.5, 1, -0.55, -0.5, 1, -0.45, 0.5, 0, -0.45, 0.5, 0, -0.55, -0.5, 1, -0.55, -0.5, 0, -0.45, -0.5, 0, -0.55 )
+
+[sub_resource type="ConvexPolygonShape" id=76]
+points = PoolVector3Array( 0.5, 0.8, -0.40001, 0.5, 0.8, -0.5, -0.5, 0.8, -0.40001, 0.5, 0.789986, -0.40001, 0.5, 0.5, -0.5, -0.5, 0.8, -0.5, -0.5, 0.789986, -0.40001, 0.5, 0.519998, -0.420008, 0.5, 0.5, -0.440006, -0.5, 0.5, -0.5, -0.5, 0.519998, -0.420008, -0.5, 0.5, -0.440006 )
+
+[sub_resource type="ConvexPolygonShape" id=71]
+points = PoolVector3Array( 0.5, 0.15, -0.450005, 0.5, 0.15, -0.5, -0.5, 0.15, -0.450005, 0.5, 0.134994, -0.435006, 0.5, 0, -0.5, -0.5, 0.15, -0.5, -0.5, 0.134994, -0.435006, 0.5, 0.119988, -0.430007, 0.5, 0, -0.425, -0.5, 0, -0.5, -0.5, 0.119988, -0.430007, 0.5, 0.094998, -0.425, -0.5, 0, -0.425, -0.5, 0.094998, -0.425 )
+
+[sub_resource type="ConvexPolygonShape" id=72]
+points = PoolVector3Array( 0.5, 1, -0.45, 0.5, 1, -0.55, -0.5, 1, -0.45, 0.5, 0, -0.45, 0.5, 0, -0.55, -0.5, 1, -0.55, -0.5, 0, -0.45, -0.5, 0, -0.55 )
+
+[sub_resource type="ConvexPolygonShape" id=73]
+points = PoolVector3Array( 0.5, 0.8, -0.40001, 0.5, 0.8, -0.5, -0.5, 0.8, -0.40001, 0.5, 0.789986, -0.40001, 0.5, 0.5, -0.5, -0.5, 0.8, -0.5, -0.5, 0.789986, -0.40001, 0.5, 0.519998, -0.420008, 0.5, 0.5, -0.440006, -0.5, 0.5, -0.5, -0.5, 0.519998, -0.420008, -0.5, 0.5, -0.440006 )
+
+[sub_resource type="ConvexPolygonShape" id=121]
+points = PoolVector3Array( 0.5, 0.15, -0.450005, 0.5, 0.15, -0.5, -0.5, 0.15, -0.450005, 0.5, 0.134994, -0.435006, 0.5, 0, -0.5, -0.5, 0.15, -0.5, -0.5, 0.134994, -0.435006, 0.5, 0.119988, -0.430007, 0.5, 0, -0.425, -0.5, 0, -0.5, -0.5, 0.119988, -0.430007, 0.5, 0.094998, -0.425, -0.5, 0, -0.425, -0.5, 0.094998, -0.425 )
+
+[sub_resource type="ConvexPolygonShape" id=122]
+points = PoolVector3Array( 0.5, 1, -0.45, 0.5, 1, -0.55, -0.5, 1, -0.45, 0.5, 0, -0.45, 0.5, 0, -0.55, -0.5, 1, -0.55, -0.5, 0, -0.45, -0.5, 0, -0.55 )
+
+[sub_resource type="ConvexPolygonShape" id=123]
+points = PoolVector3Array( 0.5, 0.8, -0.40001, 0.5, 0.8, -0.5, -0.5, 0.8, -0.40001, 0.5, 0.789986, -0.40001, 0.5, 0.5, -0.5, -0.5, 0.8, -0.5, -0.5, 0.789986, -0.40001, 0.5, 0.519998, -0.420008, 0.5, 0.5, -0.440006, -0.5, 0.5, -0.5, -0.5, 0.519998, -0.420008, -0.5, 0.5, -0.440006 )
+
+[sub_resource type="ConvexPolygonShape" id=58]
 points = PoolVector3Array( 0.6, 1, -0.350039, 0.6, 0.4, 0.25, 0.6, 1, -0.5, -0.6, 1, -0.350039, 0.6, 0.199961, 0.44998, -0.6, 0.4, 0.25, 0.6, 0.97498, -0.5, -0.6, 1, -0.5, 0.6, -7.83056e-05, 0.5, -0.6, 0.199961, 0.44998, 0.6, 0.774941, -0.450078, 0.549961, -0.2, -0.5, -0.6, 0.97498, -0.5, 0.6, -0.0250979, 0.5, -0.6, -7.83056e-05, 0.5, 0.6, -0.0250979, 0.349941, 0.549961, -0.2, 0.5, -0.550078, -0.2, -0.5, -0.6, 0.774941, -0.450078, -0.6, -0.0250979, 0.5, -0.550078, -0.2, 0.5, -0.6, -0.0250979, 0.349941 )
+
+[sub_resource type="ConvexPolygonShape" id=59]
+points = PoolVector3Array( -0.5, -0.2, -1.55005, -0.33886, -0.2, -1.55005, -0.5, -0.2, -0.450129, -0.5, 1.9748, -1.60019, -0.384251, 1.77496, -1.60782, -0.0200868, -0.2, -1.49971, -0.0559874, 1.5749, -1.56387, 0.449923, -0.2, 0.5, 0.399992, -0.025137, 0.5, -0.5, 1.9748, -0.400198, -0.5, 2, -1.60019, -0.384251, 1.79994, -1.60782, -0.284802, 1.9748, -1.60019, 0.286926, -0.2, -1.39985, 0.261548, 1.37484, -1.46896, -0.0559874, 1.59988, -1.56387, 0.0409856, 1.77496, -1.54056, 1.54984, -0.2, 0.5, 0.399992, -0.000156611, 0.5, -0.5, 2, -0.400198, -0.284802, 2, -1.60019, 0.574337, -0.2, -1.25335, 0.560101, 1.175, -1.32557, 0.261548, 1.39982, -1.46896, 0.353569, 1.5749, -1.43079, 0.0409856, 1.79994, -1.54056, 1.54984, -0.2, 0.338653, 1.59998, -0.025137, 0.5, 1.59998, -0.000156611, 0.5, 0.407626, 0.199902, 0.478542, -0.3793, 2, -0.400198, 0.835339, -0.2, -1.06374, 0.832657, 0.974941, -1.13719, 0.560101, 1.19998, -1.32557, 0.645107, 1.37484, -1.27357, 0.353569, 1.59988, -1.43079, 1.4995, -0.2, 0.0198804, 1.59998, -0.025137, 0.284596, 1.60782, 0.174922, 0.384045, 1.60782, 0.199902, 0.384045, 1.32536, 0.799863, -0.560307, 1.13699, 0.999922, -0.832863, 0.908378, 1.19998, -1.07241, 0.645107, 1.39982, -1.27357, 1.56367, 0.399961, 0.0557811, 1.46876, 0.599804, -0.261754, 1.06353, -0.2, -0.835545, 1.0722, 0.774883, -0.908584, 0.832657, 0.999922, -1.13719, 0.908378, 1.175, -1.07241, 1.39964, -0.2, -0.287132, 1.54035, 0.174922, -0.0411919, 1.56367, 0.37498, 0.0557811, 1.59998, -0.000156611, 0.284596, 1.43059, 0.399961, -0.353775, 1.32536, 0.774883, -0.560307, 1.27337, 0.599804, -0.645313, 1.13699, 0.974941, -0.832863, 1.0722, 0.799863, -0.908584, 1.54035, 0.199902, -0.0411919, 1.46876, 0.574824, -0.261754, 1.25315, -0.2, -0.574543, 1.27337, 0.574824, -0.645313, 1.43059, 0.37498, -0.353775 )
+
+[sub_resource type="ConvexPolygonShape" id=60]
+points = PoolVector3Array( -0.5, -0.2, -1.55005, -0.33886, -0.2, -1.55005, -0.5, -0.2, -0.450129, -0.5, 1.9748, -1.60019, -0.384251, 1.77496, -1.60782, -0.0200868, -0.2, -1.49971, -0.0559874, 1.5749, -1.56387, 0.449923, -0.2, 0.5, 0.399992, -0.025137, 0.5, -0.5, 1.9748, -0.400198, -0.5, 2, -1.60019, -0.384251, 1.79994, -1.60782, -0.284802, 1.9748, -1.60019, 0.286926, -0.2, -1.39985, 0.261548, 1.37484, -1.46896, -0.0559874, 1.59988, -1.56387, 0.0409856, 1.77496, -1.54056, 1.54984, -0.2, 0.5, 0.399992, -0.000156611, 0.5, -0.5, 2, -0.400198, -0.284802, 2, -1.60019, 0.574337, -0.2, -1.25335, 0.560101, 1.175, -1.32557, 0.261548, 1.39982, -1.46896, 0.353569, 1.5749, -1.43079, 0.0409856, 1.79994, -1.54056, 1.54984, -0.2, 0.338653, 1.59998, -0.025137, 0.5, 1.59998, -0.000156611, 0.5, 0.407626, 0.199902, 0.478542, -0.3793, 2, -0.400198, 0.835339, -0.2, -1.06374, 0.832657, 0.974941, -1.13719, 0.560101, 1.19998, -1.32557, 0.645107, 1.37484, -1.27357, 0.353569, 1.59988, -1.43079, 1.4995, -0.2, 0.0198804, 1.59998, -0.025137, 0.284596, 1.60782, 0.174922, 0.384045, 1.60782, 0.199902, 0.384045, 1.32536, 0.799863, -0.560307, 1.13699, 0.999922, -0.832863, 0.908378, 1.19998, -1.07241, 0.645107, 1.39982, -1.27357, 1.56367, 0.399961, 0.0557811, 1.46876, 0.599804, -0.261754, 1.06353, -0.2, -0.835545, 1.0722, 0.774883, -0.908584, 0.832657, 0.999922, -1.13719, 0.908378, 1.175, -1.07241, 1.39964, -0.2, -0.287132, 1.54035, 0.174922, -0.0411919, 1.56367, 0.37498, 0.0557811, 1.59998, -0.000156611, 0.284596, 1.43059, 0.399961, -0.353775, 1.32536, 0.774883, -0.560307, 1.27337, 0.599804, -0.645313, 1.13699, 0.974941, -0.832863, 1.0722, 0.799863, -0.908584, 1.54035, 0.199902, -0.0411919, 1.46876, 0.574824, -0.261754, 1.25315, -0.2, -0.574543, 1.27337, 0.574824, -0.645313, 1.43059, 0.37498, -0.353775 )
+
+[sub_resource type="ConvexPolygonShape" id=124]
+points = PoolVector3Array( 1.6, 0.8, 0.499795, 1.39999, 0.8, 0.499795, 1.6, 0.789986, 0.499795, 1.6, 0.8, 0.334524, 1.39999, 0.789986, 0.499795, -0.5, 0.8, -1.4002, 1.57986, 0.519998, 0.499795, 1.6, 0.789986, 0.334524, 1.5482, 0.8, 0.00809526, 1.41993, 0.519998, 0.499795, -0.5, 0.789986, -1.4002, -0.5, 0.8, -1.6, 1.55992, 0.5, 0.499795, 1.57986, 0.519998, 0.336169, 1.52867, 0.519998, 0.0128231, 1.5482, 0.789986, 0.00809526, 1.44604, 0.8, -0.306206, 1.43987, 0.5, 0.499795, -0.5, 0.519998, -1.42014, -0.33473, 0.8, -1.6, -0.5, 0.789986, -1.6, 1.55992, 0.5, 0.337813, 1.50914, 0.5, 0.0175509, 1.40903, 0.5, -0.290789, 1.42754, 0.519998, -0.2986, 1.44604, 0.789986, -0.306206, 1.29598, 0.8, -0.600773, -0.5, 0.5, -1.44007, -0.33473, 0.789986, -1.6, -0.00830072, 0.8, -1.5484, -0.5, 0.519998, -1.58006, 1.26185, 0.5, -0.579806, 1.27892, 0.519998, -0.59029, 1.29598, 0.789986, -0.600773, 1.10172, 0.8, -0.868207, -0.5, 0.5, -1.56012, -0.00830072, 0.789986, -1.5484, -0.336374, 0.519998, -1.58006, 0.306, 0.8, -1.44624, 1.07109, 0.5, -0.842101, 1.08651, 0.519998, -0.855051, 1.10172, 0.789986, -0.868207, 0.868001, 0.8, -1.10193, -0.338019, 0.5, -1.56012, 0.306, 0.789986, -1.44624, 0.298395, 0.519998, -1.42774, -0.0130286, 0.519998, -1.52888, 0.600568, 0.8, -1.29618, 0.841895, 0.5, -1.0713, 0.854845, 0.519998, -1.08672, 0.868001, 0.789986, -1.10193, -0.0177565, 0.5, -1.50935, 0.600568, 0.789986, -1.29618, 0.290583, 0.5, -1.40924, 0.590084, 0.519998, -1.27912, 0.579601, 0.5, -1.26206 )
+
+[sub_resource type="ConvexPolygonShape" id=125]
+points = PoolVector3Array( -0.5, 0, -1.55, -0.5, 0, -1.45007, -0.5, 1, -1.55, -0.338665, 0, -1.55, -0.5, 1, -1.45007, 1.44987, 0, 0.5, -0.338665, 1, -1.55, -0.0200078, 0, -1.49963, 1.44987, 1, 0.5, 1.55, 0, 0.5, -0.0200078, 1, -1.49963, 0.28681, 0, -1.3999, 1.55, 1, 0.5, 1.55, 0, 0.338464, 0.28681, 1, -1.3999, 0.574364, 0, -1.25342, 1.55, 1, 0.338464, 1.49943, 0, 0.0198071, 0.574364, 1, -1.25342, 0.83543, 0, -1.06379, 1.49943, 1, 0.0198071, 1.3997, 0, -0.287011, 0.83543, 1, -1.06379, 1.06359, 0, -0.83563, 1.3997, 1, -0.287011, 1.25322, 0, -0.574564, 1.06359, 1, -0.83563, 1.25322, 1, -0.574564 )
+
+[sub_resource type="ConvexPolygonShape" id=64]
+points = PoolVector3Array( -0.4, 0, -0.550018, 0.312529, 0.862216, -0.633485, 0.333046, 0.841758, -0.633485, 0.399922, 0, -0.550018, -0.4, 0, -0.450008, -0.4, 1.89981, -0.550018, 0.312529, 0.891229, -0.633485, 0.36202, 0.841758, -0.633485, 0.399922, 0, -0.450008, 0.382537, 0.862216, -0.633485, 0.387471, 0.86017, -0.62933, 0.399922, 1.89981, -0.550018, 0.333046, 0.841758, -0.366515, 0.312529, 0.862216, -0.366515, -0.4, 1.89981, -0.450008, 0.333046, 0.911688, -0.633485, 0.387471, 0.86017, -0.370696, 0.382537, 0.862216, -0.366515, 0.36202, 0.841758, -0.366515, 0.399922, 1.89981, -0.450008, 0.382537, 0.891229, -0.633485, 0.387471, 0.893275, -0.62933, 0.36202, 0.911688, -0.633485, 0.312529, 0.891229, -0.366515, 0.333046, 0.911688, -0.366515, 0.387471, 0.893275, -0.370696, 0.382537, 0.891229, -0.366515, 0.36202, 0.911688, -0.366515 )
 
 [node name="House" type="Spatial"]
 transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0 )
 script = ExtResource( 17 )
 
 [node name="ExternalWalls" type="Spatial" parent="."]
+visible = false
 
-[node name="Floor" type="StaticBody" parent="."]
+[node name="Wall1" type="StaticBody" parent="ExternalWalls"]
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -4.5, 2.5, 5 )
 
-[node name="Structure_Floor" type="MeshInstance" parent="Floor"]
-transform = Transform( 12, 0, 0, 0, 1, 0, 0, 0, 12, 0, 0, 0 )
+[node name="Structure_Wall_Straight_Base" type="MeshInstance" parent="ExternalWalls/Wall1"]
+transform = Transform( -14, 0, -1.50996e-07, 0, 1, 0, 2.11394e-06, 0, -1, -8.5, 0, -0.500002 )
+mesh = ExtResource( 2 )
+skeleton = NodePath("../../../Doors/DoorHinge/Door/Structure_Wall_Door")
+material/0 = null
+
+[node name="CollisionShape" type="CollisionShape" parent="ExternalWalls/Wall1"]
+transform = Transform( -14, 0, -1.50996e-07, 0, 1, 0, 2.11394e-06, 0, -1, -8.5, 0, -0.500002 )
+shape = SubResource( 97 )
+
+[node name="Structure_Wall_Straight_Main" type="MeshInstance" parent="ExternalWalls/Wall1"]
+transform = Transform( -14, 0, -1.50996e-07, 0, 2, 0, 2.11394e-06, 0, -1, -8.5, 0, -0.500002 )
+mesh = ExtResource( 4 )
+skeleton = NodePath("../Structure_Wall_Straight_Base")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="CollisionShape2" type="CollisionShape" parent="ExternalWalls/Wall1"]
+transform = Transform( -14, 0, -1.50996e-07, 0, 2, 0, 2.11394e-06, 0, -1, -8.5, 0, -0.500002 )
+shape = SubResource( 98 )
+
+[node name="Structure_Wall_Straight_Top" type="MeshInstance" parent="ExternalWalls/Wall1"]
+transform = Transform( -14, 0, -1.50996e-07, 0, 1, 0, 2.11394e-06, 0, -1, -8.5, 1.5, -0.500002 )
+mesh = ExtResource( 1 )
+skeleton = NodePath("../Structure_Wall_Straight_Base")
+material/0 = null
+
+[node name="CollisionShape3" type="CollisionShape" parent="ExternalWalls/Wall1"]
+transform = Transform( -14, 0, -1.50996e-07, 0, 1, 0, 2.11394e-06, 0, -1, -8.5, 1.5, -0.500002 )
+shape = SubResource( 99 )
+
+[node name="Wall2" type="StaticBody" parent="ExternalWalls"]
+transform = Transform( -1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -4.5, 2.5, -10.5 )
+
+[node name="Structure_Wall_Straight_Base" type="MeshInstance" parent="ExternalWalls/Wall2"]
+transform = Transform( -4.5, 0, -1.50996e-07, 0, 1, 0, 6.79481e-07, 0, -1, -2.25, 0, -0.500002 )
+mesh = ExtResource( 2 )
+skeleton = NodePath("../../../Doors/DoorHinge/Door/Structure_Wall_Door")
+material/0 = null
+
+[node name="CollisionShape" type="CollisionShape" parent="ExternalWalls/Wall2"]
+transform = Transform( -4.5, 0, -1.50996e-07, 0, 1, 0, 6.79481e-07, 0, -1, -2.25, 0, -0.500002 )
+shape = SubResource( 85 )
+
+[node name="Structure_Wall_Straight_Main" type="MeshInstance" parent="ExternalWalls/Wall2"]
+transform = Transform( -4.5, 0, -1.50996e-07, 0, 2, 0, 6.79481e-07, 0, -1, -2.25, 0, -0.500002 )
+mesh = ExtResource( 4 )
+skeleton = NodePath("../Structure_Wall_Straight_Base")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="CollisionShape2" type="CollisionShape" parent="ExternalWalls/Wall2"]
+transform = Transform( -4.5, 0, -1.50996e-07, 0, 2, 0, 6.79481e-07, 0, -1, -2.25, 0, -0.500002 )
+shape = SubResource( 86 )
+
+[node name="Structure_Wall_Straight_Top" type="MeshInstance" parent="ExternalWalls/Wall2"]
+transform = Transform( -4.5, 0, -1.50996e-07, 0, 1, 0, 6.79481e-07, 0, -1, -2.25, 1.5, -0.500002 )
+mesh = ExtResource( 1 )
+skeleton = NodePath("../Structure_Wall_Straight_Base")
+material/0 = null
+
+[node name="CollisionShape3" type="CollisionShape" parent="ExternalWalls/Wall2"]
+transform = Transform( -4.5, 0, -1.50996e-07, 0, 1, 0, 6.79481e-07, 0, -1, -2.25, 1.5, -0.500002 )
+shape = SubResource( 87 )
+
+[node name="Wall3" type="StaticBody" parent="ExternalWalls"]
+transform = Transform( 1.31134e-07, 0, 1, 0, 1, 0, -1, 0, 1.31134e-07, 0, 2.5, -10.5 )
+
+[node name="Structure_Wall_Straight_Base" type="MeshInstance" parent="ExternalWalls/Wall3"]
+transform = Transform( -5, 0, -1.50996e-07, 0, 1, 0, 7.54979e-07, 0, -1, -2.5, 0, -0.500002 )
+mesh = ExtResource( 2 )
+skeleton = NodePath("../../../Doors/DoorHinge/Door/Structure_Wall_Door")
+material/0 = null
+
+[node name="CollisionShape" type="CollisionShape" parent="ExternalWalls/Wall3"]
+transform = Transform( -5, 0, -1.50996e-07, 0, 1, 0, 7.54979e-07, 0, -1, -2.5, 0, -0.500002 )
+shape = SubResource( 88 )
+
+[node name="Structure_Wall_Straight_Main" type="MeshInstance" parent="ExternalWalls/Wall3"]
+transform = Transform( -5, 0, -1.50996e-07, 0, 2, 0, 7.54979e-07, 0, -1, -2.5, 0, -0.500002 )
+mesh = ExtResource( 4 )
+skeleton = NodePath("../Structure_Wall_Straight_Base")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="CollisionShape2" type="CollisionShape" parent="ExternalWalls/Wall3"]
+transform = Transform( -5, 0, -1.50996e-07, 0, 2, 0, 7.54979e-07, 0, -1, -2.5, 0, -0.500002 )
+shape = SubResource( 89 )
+
+[node name="Structure_Wall_Straight_Top" type="MeshInstance" parent="ExternalWalls/Wall3"]
+transform = Transform( -5, 0, -1.50996e-07, 0, 1, 0, 7.54979e-07, 0, -1, -2.5, 1.5, -0.500002 )
+mesh = ExtResource( 1 )
+skeleton = NodePath("../Structure_Wall_Straight_Base")
+material/0 = null
+
+[node name="CollisionShape3" type="CollisionShape" parent="ExternalWalls/Wall3"]
+transform = Transform( -5, 0, -1.50996e-07, 0, 1, 0, 7.54979e-07, 0, -1, -2.5, 1.5, -0.500002 )
+shape = SubResource( 90 )
+
+[node name="Wall4" type="StaticBody" parent="ExternalWalls"]
+transform = Transform( -1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 0, 2.5, -5.5 )
+
+[node name="Structure_Wall_Straight_Base" type="MeshInstance" parent="ExternalWalls/Wall4"]
+transform = Transform( -5, 0, -1.50996e-07, 0, 1, 0, 7.54979e-07, 0, -1, -2.5, 0, -0.500002 )
+mesh = ExtResource( 2 )
+skeleton = NodePath("../../../Doors/DoorHinge/Door/Structure_Wall_Door")
+material/0 = null
+
+[node name="CollisionShape" type="CollisionShape" parent="ExternalWalls/Wall4"]
+transform = Transform( -5, 0, -1.50996e-07, 0, 1, 0, 7.54979e-07, 0, -1, -2.5, 0, -0.500002 )
+shape = SubResource( 91 )
+
+[node name="Structure_Wall_Straight_Main" type="MeshInstance" parent="ExternalWalls/Wall4"]
+transform = Transform( -5, 0, -1.50996e-07, 0, 2, 0, 7.54979e-07, 0, -1, -2.5, 0, -0.500002 )
+mesh = ExtResource( 4 )
+skeleton = NodePath("../Structure_Wall_Straight_Base")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="CollisionShape2" type="CollisionShape" parent="ExternalWalls/Wall4"]
+transform = Transform( -5, 0, -1.50996e-07, 0, 2, 0, 7.54979e-07, 0, -1, -2.5, 0, -0.500002 )
+shape = SubResource( 92 )
+
+[node name="Structure_Wall_Straight_Top" type="MeshInstance" parent="ExternalWalls/Wall4"]
+transform = Transform( -5, 0, -1.50996e-07, 0, 1, 0, 7.54979e-07, 0, -1, -2.5, 1.5, -0.500002 )
+mesh = ExtResource( 1 )
+skeleton = NodePath("../Structure_Wall_Straight_Base")
+material/0 = null
+
+[node name="CollisionShape3" type="CollisionShape" parent="ExternalWalls/Wall4"]
+transform = Transform( -5, 0, -1.50996e-07, 0, 1, 0, 7.54979e-07, 0, -1, -2.5, 1.5, -0.500002 )
+shape = SubResource( 93 )
+
+[node name="Wall5" type="StaticBody" parent="ExternalWalls"]
+transform = Transform( 1.31134e-07, 0, 1, 0, 1, 0, -1, 0, 1.31134e-07, 5, 2.5, -5.5 )
+
+[node name="Structure_Wall_Straight_Base" type="MeshInstance" parent="ExternalWalls/Wall5"]
+transform = Transform( -9, 0, -1.50996e-07, 0, 1, 0, 1.35896e-06, 0, -1, -4.5, 0, -0.5 )
+mesh = ExtResource( 2 )
+skeleton = NodePath("../../../Doors/DoorHinge/Door/Structure_Wall_Door")
+material/0 = null
+
+[node name="CollisionShape" type="CollisionShape" parent="ExternalWalls/Wall5"]
+transform = Transform( -9, 0, -1.50996e-07, 0, 1, 0, 1.35896e-06, 0, -1, -4.5, 0, -0.5 )
+shape = SubResource( 94 )
+
+[node name="Structure_Wall_Straight_Main" type="MeshInstance" parent="ExternalWalls/Wall5"]
+transform = Transform( -9, 0, -1.50996e-07, 0, 2, 0, 1.35896e-06, 0, -1, -4.5, 0, -0.5 )
+mesh = ExtResource( 4 )
+skeleton = NodePath("../Structure_Wall_Straight_Base")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="CollisionShape2" type="CollisionShape" parent="ExternalWalls/Wall5"]
+transform = Transform( -9, 0, -1.50996e-07, 0, 2, 0, 1.35896e-06, 0, -1, -4.5, 0, -0.5 )
+shape = SubResource( 95 )
+
+[node name="Structure_Wall_Straight_Top" type="MeshInstance" parent="ExternalWalls/Wall5"]
+transform = Transform( -9, 0, -1.50996e-07, 0, 1, 0, 1.35896e-06, 0, -1, -4.5, 1.5, -0.5 )
+mesh = ExtResource( 1 )
+skeleton = NodePath("../Structure_Wall_Straight_Base")
+material/0 = null
+
+[node name="CollisionShape3" type="CollisionShape" parent="ExternalWalls/Wall5"]
+transform = Transform( -9, 0, -1.50996e-07, 0, 1, 0, 1.35896e-06, 0, -1, -4.5, 1.5, -0.5 )
+shape = SubResource( 96 )
+
+[node name="Wall6" type="StaticBody" parent="ExternalWalls"]
+transform = Transform( 1, 0, -1.74846e-07, 0, 1, 0, 1.74846e-07, 0, 1, -2, 2.5, 3.5 )
+
+[node name="Structure_Wall_Straight_Base" type="MeshInstance" parent="ExternalWalls/Wall6"]
+transform = Transform( -6, 0, -1.50996e-07, 0, 1, 0, 9.05975e-07, 0, -1, 0.5, 0, -0.500001 )
+mesh = ExtResource( 2 )
+skeleton = NodePath("../../../Doors/DoorHinge/Door/Structure_Wall_Door")
+material/0 = null
+
+[node name="CollisionShape" type="CollisionShape" parent="ExternalWalls/Wall6"]
+transform = Transform( -6, 0, -1.50996e-07, 0, 1, 0, 9.05975e-07, 0, -1, 0.5, 0, -0.500001 )
+shape = SubResource( 100 )
+
+[node name="Structure_Wall_Straight_Main" type="MeshInstance" parent="ExternalWalls/Wall6"]
+transform = Transform( -6, 0, -1.50996e-07, 0, 2, 0, 9.05975e-07, 0, -1, 0.5, 0, -0.500001 )
+mesh = ExtResource( 4 )
+skeleton = NodePath("../Structure_Wall_Straight_Base")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="CollisionShape2" type="CollisionShape" parent="ExternalWalls/Wall6"]
+transform = Transform( -6, 0, -1.50996e-07, 0, 2, 0, 9.05975e-07, 0, -1, 0.5, 0, -0.500001 )
+shape = SubResource( 101 )
+
+[node name="Structure_Wall_Straight_Top" type="MeshInstance" parent="ExternalWalls/Wall6"]
+transform = Transform( -6, 0, -1.50996e-07, 0, 1, 0, 9.05975e-07, 0, -1, 0.5, 1.5, -0.500001 )
+mesh = ExtResource( 1 )
+skeleton = NodePath("../Structure_Wall_Straight_Base")
+material/0 = null
+
+[node name="CollisionShape3" type="CollisionShape" parent="ExternalWalls/Wall6"]
+transform = Transform( -6, 0, -1.50996e-07, 0, 1, 0, 9.05975e-07, 0, -1, 0.5, 1.5, -0.500001 )
+shape = SubResource( 102 )
+
+[node name="Structure_Wall_Straight_Base2" type="MeshInstance" parent="ExternalWalls/Wall6"]
+transform = Transform( -1, 0, -1.50996e-07, 0, 1, 0, 1.50996e-07, 0, -1, 6.5, 0, -0.500001 )
+mesh = ExtResource( 2 )
+skeleton = NodePath("../../../Doors/DoorHinge/Door/Structure_Wall_Door")
+material/0 = null
+
+[node name="CollisionShape4" type="CollisionShape" parent="ExternalWalls/Wall6"]
+transform = Transform( -1, 0, -1.50996e-07, 0, 1, 0, 1.50996e-07, 0, -1, 6.5, 0, -0.500001 )
+shape = SubResource( 103 )
+
+[node name="Structure_Wall_Straight_Main2" type="MeshInstance" parent="ExternalWalls/Wall6"]
+transform = Transform( -1, 0, -1.50996e-07, 0, 2, 0, 1.50996e-07, 0, -1, 6.5, 0, -0.500001 )
+mesh = ExtResource( 4 )
+skeleton = NodePath("../Structure_Wall_Straight_Base")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="CollisionShape5" type="CollisionShape" parent="ExternalWalls/Wall6"]
+transform = Transform( -1, 0, -1.50996e-07, 0, 2, 0, 1.50996e-07, 0, -1, 6.5, 0, -0.500001 )
+shape = SubResource( 104 )
+
+[node name="Structure_Wall_Straight_Top2" type="MeshInstance" parent="ExternalWalls/Wall6"]
+transform = Transform( -1, 0, -1.50996e-07, 0, 1, 0, 1.50996e-07, 0, -1, 6.5, 1.5, -0.500001 )
+mesh = ExtResource( 1 )
+skeleton = NodePath("../Structure_Wall_Straight_Base")
+material/0 = null
+
+[node name="CollisionShape6" type="CollisionShape" parent="ExternalWalls/Wall6"]
+transform = Transform( -1, 0, -1.50996e-07, 0, 1, 0, 1.50996e-07, 0, -1, 6.5, 1.5, -0.500001 )
+shape = SubResource( 105 )
+
+[node name="Structure_Wall_Straight_Base3" type="MeshInstance" parent="ExternalWalls/Wall6"]
+transform = Transform( -1, 0, -1.50996e-07, 0, 1, 0, 1.50996e-07, 0, -1, 4.75, 0, 0.256329 )
+mesh = ExtResource( 2 )
+skeleton = NodePath("../../../Doors/DoorHinge/Door/Structure_Wall_Door")
+material/0 = null
+
+[node name="CollisionShape7" type="CollisionShape" parent="ExternalWalls/Wall6"]
+transform = Transform( -1, 0, -1.50996e-07, 0, 1, 0, 1.50996e-07, 0, -1, 4.75, 0, 0.256329 )
+shape = SubResource( 106 )
+
+[node name="Structure_Wall_Straight_Main3" type="MeshInstance" parent="ExternalWalls/Wall6"]
+transform = Transform( -1, 0, -1.50996e-07, 0, 2, 0, 1.50996e-07, 0, -1, 4.75, 0, 0.256329 )
+mesh = ExtResource( 4 )
+skeleton = NodePath("../Structure_Wall_Straight_Base")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="CollisionShape8" type="CollisionShape" parent="ExternalWalls/Wall6"]
+transform = Transform( -1, 0, -1.50996e-07, 0, 2, 0, 1.50996e-07, 0, -1, 4.75, 0, 0.256329 )
+shape = SubResource( 107 )
+
+[node name="Structure_Wall_Straight_Top3" type="MeshInstance" parent="ExternalWalls/Wall6"]
+transform = Transform( -1, 0, -1.50996e-07, 0, 1, 0, 1.50996e-07, 0, -1, 4.75, 1.5, 0.256329 )
+mesh = ExtResource( 1 )
+skeleton = NodePath("../Structure_Wall_Straight_Base")
+material/0 = null
+
+[node name="CollisionShape9" type="CollisionShape" parent="ExternalWalls/Wall6"]
+transform = Transform( -1, 0, -1.50996e-07, 0, 1, 0, 1.50996e-07, 0, -1, 4.75, 1.5, 0.256329 )
+shape = SubResource( 108 )
+
+[node name="Structure_Wall_Straight_Base4" type="MeshInstance" parent="ExternalWalls/Wall6"]
+transform = Transform( -0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, -0.707107, 4.25, 0, -2.38419e-07 )
+mesh = ExtResource( 2 )
+skeleton = NodePath("../../../Doors/DoorHinge/Door/Structure_Wall_Door")
+material/0 = null
+
+[node name="CollisionShape10" type="CollisionShape" parent="ExternalWalls/Wall6"]
+transform = Transform( -0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, -0.707107, 4.25, 0, -2.38419e-07 )
+shape = SubResource( 109 )
+
+[node name="Structure_Wall_Straight_Main4" type="MeshInstance" parent="ExternalWalls/Wall6"]
+transform = Transform( -0.707107, 0, 0.707107, 0, 2, 0, -0.707107, 0, -0.707107, 4.25, 0, -2.38419e-07 )
+mesh = ExtResource( 4 )
+skeleton = NodePath("../Structure_Wall_Straight_Base")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="CollisionShape11" type="CollisionShape" parent="ExternalWalls/Wall6"]
+transform = Transform( -0.707107, 0, 0.707107, 0, 2, 0, -0.707107, 0, -0.707107, 4.25, 0, -2.38419e-07 )
+shape = SubResource( 110 )
+
+[node name="Structure_Wall_Straight_Top4" type="MeshInstance" parent="ExternalWalls/Wall6"]
+transform = Transform( -0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, -0.707107, 4.25, 1.5, -2.38419e-07 )
+mesh = ExtResource( 1 )
+skeleton = NodePath("../Structure_Wall_Straight_Base")
+material/0 = null
+
+[node name="CollisionShape12" type="CollisionShape" parent="ExternalWalls/Wall6"]
+transform = Transform( -0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, -0.707107, 4.25, 1.5, -2.38419e-07 )
+shape = SubResource( 111 )
+
+[node name="Structure_Wall_Straight_Base5" type="MeshInstance" parent="ExternalWalls/Wall6"]
+transform = Transform( -0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, -0.707107, 5.25, 0, -2.38419e-07 )
+mesh = ExtResource( 2 )
+skeleton = NodePath("../../../Doors/DoorHinge/Door/Structure_Wall_Door")
+material/0 = null
+
+[node name="CollisionShape13" type="CollisionShape" parent="ExternalWalls/Wall6"]
+transform = Transform( -0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, -0.707107, 5.25, 0, -2.38419e-07 )
+shape = SubResource( 112 )
+
+[node name="Structure_Wall_Straight_Main5" type="MeshInstance" parent="ExternalWalls/Wall6"]
+transform = Transform( -0.707107, 0, -0.707107, 0, 2, 0, 0.707107, 0, -0.707107, 5.25, 0, -2.38419e-07 )
+mesh = ExtResource( 4 )
+skeleton = NodePath("../Structure_Wall_Straight_Base")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="CollisionShape14" type="CollisionShape" parent="ExternalWalls/Wall6"]
+transform = Transform( -0.707107, 0, -0.707107, 0, 2, 0, 0.707107, 0, -0.707107, 5.25, 0, -2.38419e-07 )
+shape = SubResource( 113 )
+
+[node name="Structure_Wall_Straight_Top5" type="MeshInstance" parent="ExternalWalls/Wall6"]
+transform = Transform( -0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, -0.707107, 5.25, 1.5, -2.38419e-07 )
+mesh = ExtResource( 1 )
+skeleton = NodePath("../Structure_Wall_Straight_Base")
+material/0 = null
+
+[node name="CollisionShape15" type="CollisionShape" parent="ExternalWalls/Wall6"]
+transform = Transform( -0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, -0.707107, 5.25, 1.5, -2.38419e-07 )
+shape = SubResource( 114 )
+
+[node name="Floor0" type="StaticBody" parent="."]
+
+[node name="Structure_Floor" type="MeshInstance" parent="Floor0"]
+transform = Transform( 9.5, 0, 0, 0, 1, 0, 0, 0, 16, 0.25, 0, -2.5 )
 mesh = ExtResource( 3 )
 skeleton = NodePath("../..")
 material/0 = null
@@ -191,16 +724,16 @@ material/2 = null
 material/3 = null
 material/4 = null
 
-[node name="CollisionShape" type="CollisionShape" parent="Floor"]
-transform = Transform( 12, 0, 0, 0, 1, 0, 0, 0, 12, 0, 0, 0 )
-shape = SubResource( 48 )
+[node name="CollisionShape" type="CollisionShape" parent="Floor0"]
+transform = Transform( 9.5, 0, 0, 0, 1, 0, 0, 0, 16, 0.25, 0, -2.5 )
+shape = SubResource( 57 )
 
-[node name="Ceiling" type="StaticBody" parent="."]
+[node name="Floor1" type="StaticBody" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.5, 0 )
 visible = false
 
-[node name="Structure_Floor" type="MeshInstance" parent="Ceiling"]
-transform = Transform( 10, 0, 0, 0, 1, 0, 0, 0, 10, 0, 0, 0 )
+[node name="Structure_Floor" type="MeshInstance" parent="Floor1"]
+transform = Transform( 5, 0, 0, 0, 1, 0, 0, 0, 9.5, 2.5, 0, -1 )
 mesh = ExtResource( 3 )
 material/0 = null
 material/1 = null
@@ -208,9 +741,108 @@ material/2 = null
 material/3 = null
 material/4 = null
 
-[node name="CollisionShape" type="CollisionShape" parent="Ceiling"]
-transform = Transform( 10, 0, 0, 0, 1, 0, 0, 0, 10, 0, 0, 0 )
-shape = SubResource( 2 )
+[node name="CollisionShape" type="CollisionShape" parent="Floor1"]
+transform = Transform( 5, 0, 0, 0, 1, 0, 0, 0, 9.5, 2.5, 0, -1 )
+shape = SubResource( 80 )
+
+[node name="Structure_Floor2" type="MeshInstance" parent="Floor1"]
+transform = Transform( 2.5, 0, 0, 0, 1, 0, 0, 0, 8, -3.25, 0, 1.5 )
+mesh = ExtResource( 3 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+
+[node name="CollisionShape2" type="CollisionShape" parent="Floor1"]
+transform = Transform( 2.5, 0, 0, 0, 1, 0, 0, 0, 8, -3.25, 0, 1.5 )
+shape = SubResource( 81 )
+
+[node name="Structure_Floor4" type="MeshInstance" parent="Floor1"]
+transform = Transform( 2.5, 0, 0, 0, 1, 0, 0, 0, 5, -3.25, 0, -8 )
+mesh = ExtResource( 3 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+
+[node name="CollisionShape3" type="CollisionShape" parent="Floor1"]
+transform = Transform( 2.5, 0, 0, 0, 1, 0, 0, 0, 5, -3.25, 0, -8 )
+shape = SubResource( 84 )
+
+[node name="Structure_Floor3" type="MeshInstance" parent="Floor1"]
+transform = Transform( 2.5, 0, 0, 0, 1, 0, 0, 0, 14, -1.14, 0, -3.35 )
+mesh = ExtResource( 3 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+
+[node name="CollisionShape4" type="CollisionShape" parent="Floor1"]
+transform = Transform( 2.5, 0, 0, 0, 1, 0, 0, 0, 14, -1.14, 0, -3.35 )
+shape = SubResource( 83 )
+
+[node name="CSGBox" type="CSGBox" parent="Floor1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5, -0.0999999, -4.5 )
+use_collision = true
+height = 0.2
+material = SubResource( 2 )
+
+[node name="CSGCylinder" type="CSGCylinder" parent="Floor1/CSGBox"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1 )
+operation = 2
+radius = 2.0
+height = 2.0
+sides = 14
+material = SubResource( 2 )
+
+[node name="Floor2" type="StaticBody" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, 0 )
+visible = false
+
+[node name="Structure_Floor" type="MeshInstance" parent="Floor2"]
+transform = Transform( 9.5, 0, 0, 0, 1, 0, 0, 0, 9, 0.25, 0, -1 )
+mesh = ExtResource( 3 )
+skeleton = NodePath("../..")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+
+[node name="CollisionShape" type="CollisionShape" parent="Floor2"]
+transform = Transform( 9.5, 0, 0, 0, 1, 0, 0, 0, 9, 0.25, 0, -1 )
+shape = SubResource( 115 )
+
+[node name="Structure_Floor2" type="MeshInstance" parent="Floor2"]
+transform = Transform( 4.5, 0, 0, 0, 1, 0, 0, 0, 5, -2.25, 0, -8 )
+mesh = ExtResource( 3 )
+skeleton = NodePath("../..")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+
+[node name="CollisionShape2" type="CollisionShape" parent="Floor2"]
+transform = Transform( 4.5, 0, 0, 0, 1, 0, 0, 0, 5, -2.25, 0, -8 )
+shape = SubResource( 116 )
+
+[node name="Structure_Floor3" type="MeshInstance" parent="Floor2"]
+transform = Transform( 3, 0, 0, 0, 1, 0, 0, 0, 1, 2.75, 0, 4 )
+mesh = ExtResource( 3 )
+skeleton = NodePath("../..")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+
+[node name="CollisionShape3" type="CollisionShape" parent="Floor2"]
+transform = Transform( 3, 0, 0, 0, 1, 0, 0, 0, 1, 2.75, 0, 4 )
+shape = SubResource( 117 )
 
 [node name="Rooms" type="Spatial" parent="."]
 
@@ -444,7 +1076,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 0.9, 0, 0, 0.00612259 )
 [node name="Structure_Wall_Door" type="MeshInstance" parent="Rooms/Kitchen/Doors/DoorHinge/Door"]
 transform = Transform( 1.19209e-07, 0, -1, 0, 1, 0, 1, 0, 1.19209e-07, -0.5829, 0, 0.390384 )
 mesh = ExtResource( 5 )
-skeleton = NodePath("../../../../../../Floor/Structure_Floor")
+skeleton = NodePath("../../../../../../Floor0/Structure_Floor")
 material/0 = null
 material/1 = null
 material/2 = null
@@ -968,7 +1600,7 @@ transform = Transform( 1, 0, 2.32831e-10, 0, 1, 0, 0, 0, 0.9, 0.156588, 0, 0.006
 [node name="Structure_Wall_Door" type="MeshInstance" parent="Rooms/Bedroom/Doors/DoorHinge/Door"]
 transform = Transform( 1.19209e-07, 0, -1, 0, 1, 0, 1, 0, 1.19209e-07, -0.5829, 0, 0.390384 )
 mesh = ExtResource( 5 )
-skeleton = NodePath("../../../../../../Floor/Structure_Floor")
+skeleton = NodePath("../../../../../../Floor0/Structure_Floor")
 material/0 = null
 material/1 = null
 material/2 = null
@@ -1008,17 +1640,17 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 0 )
 transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -2.5, 0, 5 )
 
 [node name="Structure_Wall_Straight_Base" type="MeshInstance" parent="Rooms/Hallway/Walls/Wall1"]
-transform = Transform( -10, 0, -1.50996e-07, 0, 1, 0, 1.50996e-06, 0, -1, -4.5, 0, -0.5 )
+transform = Transform( -12, 0, -1.50996e-07, 0, 1, 0, 1.81195e-06, 0, -1, -5.5, 0, -0.500001 )
 mesh = ExtResource( 2 )
 skeleton = NodePath("../../../Doors/DoorHinge/Door/Structure_Wall_Door")
 material/0 = null
 
 [node name="CollisionShape" type="CollisionShape" parent="Rooms/Hallway/Walls/Wall1"]
-transform = Transform( -10, 0, -1.50996e-07, 0, 1, 0, 1.50996e-06, 0, -1, -4.5, 0, -0.5 )
-shape = SubResource( 49 )
+transform = Transform( -12, 0, -1.50996e-07, 0, 1, 0, 1.81195e-06, 0, -1, -5.5, 0, -0.500001 )
+shape = SubResource( 118 )
 
 [node name="Structure_Wall_Straight_Main" type="MeshInstance" parent="Rooms/Hallway/Walls/Wall1"]
-transform = Transform( -10, 0, -1.50996e-07, 0, 2, 0, 1.50996e-06, 0, -1, -4.5, 0, -0.5 )
+transform = Transform( -12, 0, -1.50996e-07, 0, 2, 0, 1.81195e-06, 0, -1, -5.5, 0, -0.500001 )
 mesh = ExtResource( 4 )
 skeleton = NodePath("../Structure_Wall_Straight_Base")
 material/0 = null
@@ -1027,18 +1659,18 @@ material/2 = null
 material/3 = null
 
 [node name="CollisionShape2" type="CollisionShape" parent="Rooms/Hallway/Walls/Wall1"]
-transform = Transform( -10, 0, -1.50996e-07, 0, 2, 0, 1.50996e-06, 0, -1, -4.5, 0, -0.5 )
-shape = SubResource( 50 )
+transform = Transform( -12, 0, -1.50996e-07, 0, 2, 0, 1.81195e-06, 0, -1, -5.5, 0, -0.500001 )
+shape = SubResource( 119 )
 
 [node name="Structure_Wall_Straight_Top" type="MeshInstance" parent="Rooms/Hallway/Walls/Wall1"]
-transform = Transform( -10, 0, -1.50996e-07, 0, 1, 0, 1.50996e-06, 0, -1, -4.5, 1.5, -0.5 )
+transform = Transform( -12, 0, -1.50996e-07, 0, 1, 0, 1.81195e-06, 0, -1, -5.5, 1.5, -0.500001 )
 mesh = ExtResource( 1 )
 skeleton = NodePath("../Structure_Wall_Straight_Base")
 material/0 = null
 
 [node name="CollisionShape3" type="CollisionShape" parent="Rooms/Hallway/Walls/Wall1"]
-transform = Transform( -10, 0, -1.50996e-07, 0, 1, 0, 1.50996e-06, 0, -1, -4.5, 1.5, -0.5 )
-shape = SubResource( 51 )
+transform = Transform( -12, 0, -1.50996e-07, 0, 1, 0, 1.81195e-06, 0, -1, -5.5, 1.5, -0.500001 )
+shape = SubResource( 120 )
 
 [node name="Wall2" type="StaticBody" parent="Rooms/Hallway/Walls"]
 transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -4.76837e-07, 0, 3.5 )
@@ -1049,6 +1681,10 @@ mesh = ExtResource( 2 )
 skeleton = NodePath("../../../Doors/DoorHinge/Door/Structure_Wall_Door")
 material/0 = null
 
+[node name="CollisionShape" type="CollisionShape" parent="Rooms/Hallway/Walls/Wall2"]
+transform = Transform( -4, 0, -1.50996e-07, 0, 1, 0, 6.03983e-07, 0, -1, -4.76837e-07, 0, -0.500001 )
+shape = SubResource( 61 )
+
 [node name="Structure_Wall_Straight_Main" type="MeshInstance" parent="Rooms/Hallway/Walls/Wall2"]
 transform = Transform( -4, 0, -1.50996e-07, 0, 2, 0, 6.03983e-07, 0, -1, -4.76837e-07, 0, -0.500001 )
 mesh = ExtResource( 4 )
@@ -1058,11 +1694,19 @@ material/1 = null
 material/2 = null
 material/3 = null
 
+[node name="CollisionShape2" type="CollisionShape" parent="Rooms/Hallway/Walls/Wall2"]
+transform = Transform( -4, 0, -1.50996e-07, 0, 2, 0, 6.03983e-07, 0, -1, -4.76837e-07, 0, -0.500001 )
+shape = SubResource( 62 )
+
 [node name="Structure_Wall_Straight_Top" type="MeshInstance" parent="Rooms/Hallway/Walls/Wall2"]
 transform = Transform( -4, 0, -1.50996e-07, 0, 1, 0, 6.03983e-07, 0, -1, -4.76837e-07, 1.5, -0.500001 )
 mesh = ExtResource( 1 )
 skeleton = NodePath("../Structure_Wall_Straight_Base")
 material/0 = null
+
+[node name="CollisionShape3" type="CollisionShape" parent="Rooms/Hallway/Walls/Wall2"]
+transform = Transform( -4, 0, -1.50996e-07, 0, 1, 0, 6.03983e-07, 0, -1, -4.76837e-07, 1.5, -0.500001 )
+shape = SubResource( 63 )
 
 [node name="Wall3" type="StaticBody" parent="Rooms/Hallway/Walls"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.76837e-07, 0, 5.5 )
@@ -1100,13 +1744,226 @@ material/0 = null
 transform = Transform( -2.5, 0, -1.50996e-07, 0, 1, 0, 3.77489e-07, 0, -1, -1.25, 1.5, -0.500002 )
 shape = SubResource( 54 )
 
+[node name="Wall4" type="StaticBody" parent="Rooms/Hallway/Walls"]
+transform = Transform( 1.31134e-07, 0, -1, 0, 1, 0, 1, 0, 1.31134e-07, -0.382973, 0, -6.44709 )
+
+[node name="Structure_Wall_Straight_Base" type="MeshInstance" parent="Rooms/Hallway/Walls/Wall4"]
+transform = Transform( -2, 0, -1.50996e-07, 0, 1, 0, 3.01992e-07, 0, -1, 1, 0, -0.500001 )
+mesh = ExtResource( 2 )
+skeleton = NodePath("../../../Doors/DoorHinge/Door/Structure_Wall_Door")
+material/0 = null
+
+[node name="CollisionShape" type="CollisionShape" parent="Rooms/Hallway/Walls/Wall4"]
+transform = Transform( -2, 0, -1.50996e-07, 0, 1, 0, 3.01992e-07, 0, -1, 1, 0, -0.500001 )
+shape = SubResource( 65 )
+
+[node name="Structure_Wall_Straight_Main" type="MeshInstance" parent="Rooms/Hallway/Walls/Wall4"]
+transform = Transform( -2, 0, -1.50996e-07, 0, 2, 0, 3.01992e-07, 0, -1, 1, 0, -0.500001 )
+mesh = ExtResource( 4 )
+skeleton = NodePath("../Structure_Wall_Straight_Base")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="CollisionShape2" type="CollisionShape" parent="Rooms/Hallway/Walls/Wall4"]
+transform = Transform( -2, 0, -1.50996e-07, 0, 2, 0, 3.01992e-07, 0, -1, 1, 0, -0.500001 )
+shape = SubResource( 66 )
+
+[node name="Structure_Wall_Straight_Top" type="MeshInstance" parent="Rooms/Hallway/Walls/Wall4"]
+transform = Transform( -2, 0, -1.50996e-07, 0, 1, 0, 3.01992e-07, 0, -1, 1, 1.5, -0.500001 )
+mesh = ExtResource( 1 )
+skeleton = NodePath("../Structure_Wall_Straight_Base")
+material/0 = null
+
+[node name="CollisionShape3" type="CollisionShape" parent="Rooms/Hallway/Walls/Wall4"]
+transform = Transform( -2, 0, -1.50996e-07, 0, 1, 0, 3.01992e-07, 0, -1, 1, 1.5, -0.500001 )
+shape = SubResource( 67 )
+
+[node name="Wall5" type="StaticBody" parent="Rooms/Hallway/Walls"]
+transform = Transform( -2.18557e-07, 0, 1, 0, 1, 0, -1, 0, -2.18557e-07, 2, 0, -6 )
+
+[node name="Structure_Wall_Straight_Base" type="MeshInstance" parent="Rooms/Hallway/Walls/Wall5"]
+transform = Transform( -4.5, 0, -1.50996e-07, 0, 1, 0, 6.79481e-07, 0, -1, -2, 0, -0.500002 )
+mesh = ExtResource( 2 )
+skeleton = NodePath("../../../Doors/DoorHinge/Door/Structure_Wall_Door")
+material/0 = null
+
+[node name="CollisionShape" type="CollisionShape" parent="Rooms/Hallway/Walls/Wall5"]
+transform = Transform( -4.5, 0, -1.50996e-07, 0, 1, 0, 6.79481e-07, 0, -1, -2, 0, -0.500002 )
+shape = SubResource( 68 )
+
+[node name="Structure_Wall_Straight_Main" type="MeshInstance" parent="Rooms/Hallway/Walls/Wall5"]
+transform = Transform( -4.5, 0, -1.50996e-07, 0, 2, 0, 6.79481e-07, 0, -1, -2, 0, -0.500002 )
+mesh = ExtResource( 4 )
+skeleton = NodePath("../Structure_Wall_Straight_Base")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="CollisionShape2" type="CollisionShape" parent="Rooms/Hallway/Walls/Wall5"]
+transform = Transform( -4.5, 0, -1.50996e-07, 0, 2, 0, 6.79481e-07, 0, -1, -2, 0, -0.500002 )
+shape = SubResource( 69 )
+
+[node name="Structure_Wall_Straight_Top" type="MeshInstance" parent="Rooms/Hallway/Walls/Wall5"]
+transform = Transform( -4.5, 0, -1.50996e-07, 0, 1, 0, 6.79481e-07, 0, -1, -2, 1.5, -0.500002 )
+mesh = ExtResource( 1 )
+skeleton = NodePath("../Structure_Wall_Straight_Base")
+material/0 = null
+
+[node name="CollisionShape3" type="CollisionShape" parent="Rooms/Hallway/Walls/Wall5"]
+transform = Transform( -4.5, 0, -1.50996e-07, 0, 1, 0, 6.79481e-07, 0, -1, -2, 1.5, -0.500002 )
+shape = SubResource( 70 )
+
+[node name="Structure_Wall_Straight_Base2" type="MeshInstance" parent="Rooms/Hallway/Walls/Wall5"]
+transform = Transform( -3.5, 0, -1.50996e-07, 0, 1, 0, 5.28485e-07, 0, -1, 2.75, 0, -0.5 )
+mesh = ExtResource( 2 )
+skeleton = NodePath("../../../Doors/DoorHinge/Door/Structure_Wall_Door")
+material/0 = null
+
+[node name="CollisionShape4" type="CollisionShape" parent="Rooms/Hallway/Walls/Wall5"]
+transform = Transform( -3.5, 0, -1.50996e-07, 0, 1, 0, 5.28485e-07, 0, -1, 2.75, 0, -0.5 )
+shape = SubResource( 74 )
+
+[node name="Structure_Wall_Straight_Main2" type="MeshInstance" parent="Rooms/Hallway/Walls/Wall5"]
+transform = Transform( -3.5, 0, -1.50996e-07, 0, 2, 0, 5.28485e-07, 0, -1, 2.75, 0, -0.5 )
+mesh = ExtResource( 4 )
+skeleton = NodePath("../Structure_Wall_Straight_Base")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="CollisionShape5" type="CollisionShape" parent="Rooms/Hallway/Walls/Wall5"]
+transform = Transform( -3.5, 0, -1.50996e-07, 0, 2, 0, 5.28485e-07, 0, -1, 2.75, 0, -0.5 )
+shape = SubResource( 75 )
+
+[node name="Structure_Wall_Straight_Top2" type="MeshInstance" parent="Rooms/Hallway/Walls/Wall5"]
+transform = Transform( -5, 0, -1.50996e-07, 0, 1, 0, 7.54979e-07, 0, -1, 2, 1.5, -0.5 )
+mesh = ExtResource( 1 )
+skeleton = NodePath("../Structure_Wall_Straight_Base")
+material/0 = null
+
+[node name="CollisionShape6" type="CollisionShape" parent="Rooms/Hallway/Walls/Wall5"]
+transform = Transform( -5, 0, -1.50996e-07, 0, 1, 0, 7.54979e-07, 0, -1, 2, 1.5, -0.5 )
+shape = SubResource( 76 )
+
+[node name="Wall6" type="StaticBody" parent="Rooms/Hallway/Walls"]
+transform = Transform( 1, 0, 1.74846e-07, 0, 1, 0, -1.74846e-07, 0, 1, -2.38297, 0, -6.44709 )
+
+[node name="Structure_Wall_Straight_Base" type="MeshInstance" parent="Rooms/Hallway/Walls/Wall6"]
+transform = Transform( -2, 0, -1.50996e-07, 0, 1, 0, 3.01992e-07, 0, -1, 1, 0, -0.500001 )
+mesh = ExtResource( 2 )
+skeleton = NodePath("../../../Doors/DoorHinge/Door/Structure_Wall_Door")
+material/0 = null
+
+[node name="CollisionShape" type="CollisionShape" parent="Rooms/Hallway/Walls/Wall6"]
+transform = Transform( -2, 0, -1.50996e-07, 0, 1, 0, 3.01992e-07, 0, -1, 1, 0, -0.500001 )
+shape = SubResource( 65 )
+
+[node name="Structure_Wall_Straight_Main" type="MeshInstance" parent="Rooms/Hallway/Walls/Wall6"]
+transform = Transform( -2, 0, -1.50996e-07, 0, 2, 0, 3.01992e-07, 0, -1, 1, 0, -0.500001 )
+mesh = ExtResource( 4 )
+skeleton = NodePath("../Structure_Wall_Straight_Base")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="CollisionShape2" type="CollisionShape" parent="Rooms/Hallway/Walls/Wall6"]
+transform = Transform( -2, 0, -1.50996e-07, 0, 2, 0, 3.01992e-07, 0, -1, 1, 0, -0.500001 )
+shape = SubResource( 66 )
+
+[node name="Structure_Wall_Straight_Top" type="MeshInstance" parent="Rooms/Hallway/Walls/Wall6"]
+transform = Transform( -2, 0, -1.50996e-07, 0, 1, 0, 3.01992e-07, 0, -1, 1, 1.5, -0.500001 )
+mesh = ExtResource( 1 )
+skeleton = NodePath("../Structure_Wall_Straight_Base")
+material/0 = null
+
+[node name="CollisionShape3" type="CollisionShape" parent="Rooms/Hallway/Walls/Wall6"]
+transform = Transform( -2, 0, -1.50996e-07, 0, 1, 0, 3.01992e-07, 0, -1, 1, 1.5, -0.500001 )
+shape = SubResource( 67 )
+
+[node name="Wall7" type="StaticBody" parent="Rooms/Hallway/Walls"]
+transform = Transform( 1.31134e-07, 0, -1, 0, 1, 0, 1, 0, 1.31134e-07, -2.5, 0, -8.447 )
+
+[node name="Structure_Wall_Straight_Base" type="MeshInstance" parent="Rooms/Hallway/Walls/Wall7"]
+transform = Transform( -4, 0, -1.50996e-07, 0, 1, 0, 6.03983e-07, 0, -1, 0, 0, -0.500002 )
+mesh = ExtResource( 2 )
+skeleton = NodePath("../../../Doors/DoorHinge/Door/Structure_Wall_Door")
+material/0 = null
+
+[node name="CollisionShape" type="CollisionShape" parent="Rooms/Hallway/Walls/Wall7"]
+transform = Transform( -4, 0, -1.50996e-07, 0, 1, 0, 6.03983e-07, 0, -1, 0, 0, -0.500002 )
+shape = SubResource( 71 )
+
+[node name="Structure_Wall_Straight_Main" type="MeshInstance" parent="Rooms/Hallway/Walls/Wall7"]
+transform = Transform( -4, 0, -1.50996e-07, 0, 2, 0, 6.03983e-07, 0, -1, 0, 0, -0.500002 )
+mesh = ExtResource( 4 )
+skeleton = NodePath("../Structure_Wall_Straight_Base")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="CollisionShape2" type="CollisionShape" parent="Rooms/Hallway/Walls/Wall7"]
+transform = Transform( -4, 0, -1.50996e-07, 0, 2, 0, 6.03983e-07, 0, -1, 0, 0, -0.500002 )
+shape = SubResource( 72 )
+
+[node name="Structure_Wall_Straight_Top" type="MeshInstance" parent="Rooms/Hallway/Walls/Wall7"]
+transform = Transform( -4, 0, -1.50996e-07, 0, 1, 0, 6.03983e-07, 0, -1, 0, 1.5, -0.500002 )
+mesh = ExtResource( 1 )
+skeleton = NodePath("../Structure_Wall_Straight_Base")
+material/0 = null
+
+[node name="CollisionShape3" type="CollisionShape" parent="Rooms/Hallway/Walls/Wall7"]
+transform = Transform( -4, 0, -1.50996e-07, 0, 1, 0, 6.03983e-07, 0, -1, 0, 1.5, -0.500002 )
+shape = SubResource( 73 )
+
+[node name="Wall8" type="StaticBody" parent="Rooms/Hallway/Walls"]
+transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -0.382974, 0, -10.4471 )
+
+[node name="Structure_Wall_Straight_Base" type="MeshInstance" parent="Rooms/Hallway/Walls/Wall8"]
+transform = Transform( -4.5, 0, -1.50996e-07, 0, 1, 0, 6.79481e-07, 0, -1, -0.25, 0, -0.500002 )
+mesh = ExtResource( 2 )
+skeleton = NodePath("../../../Doors/DoorHinge/Door/Structure_Wall_Door")
+material/0 = null
+
+[node name="CollisionShape" type="CollisionShape" parent="Rooms/Hallway/Walls/Wall8"]
+transform = Transform( -4.5, 0, -1.50996e-07, 0, 1, 0, 6.79481e-07, 0, -1, -0.25, 0, -0.500002 )
+shape = SubResource( 121 )
+
+[node name="Structure_Wall_Straight_Main" type="MeshInstance" parent="Rooms/Hallway/Walls/Wall8"]
+transform = Transform( -4.5, 0, -1.50996e-07, 0, 2, 0, 6.79481e-07, 0, -1, -0.25, 0, -0.500002 )
+mesh = ExtResource( 4 )
+skeleton = NodePath("../Structure_Wall_Straight_Base")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="CollisionShape2" type="CollisionShape" parent="Rooms/Hallway/Walls/Wall8"]
+transform = Transform( -4.5, 0, -1.50996e-07, 0, 2, 0, 6.79481e-07, 0, -1, -0.25, 0, -0.500002 )
+shape = SubResource( 122 )
+
+[node name="Structure_Wall_Straight_Top" type="MeshInstance" parent="Rooms/Hallway/Walls/Wall8"]
+transform = Transform( -4.5, 0, -1.50996e-07, 0, 1, 0, 6.79481e-07, 0, -1, -0.25, 1.5, -0.500002 )
+mesh = ExtResource( 1 )
+skeleton = NodePath("../Structure_Wall_Straight_Base")
+material/0 = null
+
+[node name="CollisionShape3" type="CollisionShape" parent="Rooms/Hallway/Walls/Wall8"]
+transform = Transform( -4.5, 0, -1.50996e-07, 0, 1, 0, 6.79481e-07, 0, -1, -0.25, 1.5, -0.500002 )
+shape = SubResource( 123 )
+
 [node name="Stairs" type="Spatial" parent="Rooms/Hallway"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3 )
 
 [node name="Stairs1" type="StaticBody" parent="Rooms/Hallway/Stairs"]
 
 [node name="Structure_Stairs_Straight" type="MeshInstance" parent="Rooms/Hallway/Stairs/Stairs1"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.88066, 0, 0 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.88066, -0.5, 0 )
 mesh = ExtResource( 20 )
 skeleton = NodePath("../../../../..")
 material/0 = null
@@ -1123,11 +1980,11 @@ material/10 = null
 material/11 = null
 
 [node name="CollisionShape" type="CollisionShape" parent="Rooms/Hallway/Stairs/Stairs1"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.88066, 0, 0 )
-shape = SubResource( 55 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.88066, -0.5, 0 )
+shape = SubResource( 58 )
 
 [node name="Structure_Stairs_Curved" type="MeshInstance" parent="Rooms/Hallway/Stairs/Stairs1"]
-transform = Transform( -1, 0, 4.37114e-08, 0, 1, 0, 4.37114e-08, 0, 1, -0.880664, 1, -1 )
+transform = Transform( -1, 0, 4.37114e-08, 0, 1, 0, 4.37114e-08, 0, 1, -0.880664, 0.5, -1 )
 mesh = ExtResource( 19 )
 skeleton = NodePath("../../..")
 material/0 = null
@@ -1154,3 +2011,88 @@ material/20 = null
 material/21 = null
 material/22 = null
 material/23 = null
+
+[node name="CollisionShape2" type="CollisionShape" parent="Rooms/Hallway/Stairs/Stairs1"]
+transform = Transform( -1, 0, 4.37114e-08, 0, 1, 0, 4.37114e-08, 0, 1, -0.880664, 0.5, -1 )
+shape = SubResource( 59 )
+
+[node name="Structure_Stairs_Curved2" type="MeshInstance" parent="Rooms/Hallway/Stairs/Stairs1"]
+transform = Transform( 0, -3.82137e-15, 1, 8.74228e-08, -1, -3.82137e-15, -1, -8.74228e-08, 0, -0.880664, 0.147613, -1 )
+mesh = ExtResource( 19 )
+skeleton = NodePath("../../..")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+material/9 = null
+material/10 = null
+material/11 = null
+material/12 = null
+material/13 = null
+material/14 = null
+material/15 = null
+material/16 = null
+material/17 = null
+material/18 = null
+material/19 = null
+material/20 = null
+material/21 = null
+material/22 = null
+material/23 = null
+
+[node name="CollisionShape3" type="CollisionShape" parent="Rooms/Hallway/Stairs/Stairs1"]
+transform = Transform( 0, -3.82137e-15, 1, 8.74228e-08, -1, -3.82137e-15, -1, -8.74228e-08, 0, -0.880664, 0.147613, -1 )
+shape = SubResource( 60 )
+
+[node name="Walls" type="StaticBody" parent="Rooms/Hallway/Stairs"]
+
+[node name="Structure_Wall_Curved_Large_Top" type="MeshInstance" parent="Rooms/Hallway/Stairs/Walls"]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -1, 1.5, -1 )
+mesh = ExtResource( 22 )
+skeleton = NodePath("")
+material/0 = null
+
+[node name="CollisionShape" type="CollisionShape" parent="Rooms/Hallway/Stairs/Walls"]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -1, 1.5, -1 )
+shape = SubResource( 124 )
+
+[node name="Structure_Wall_Curved_Large_Main" type="MeshInstance" parent="Rooms/Hallway/Stairs/Walls"]
+transform = Transform( -4.37114e-08, 0, 1, 0, 2.5, 0, -1, 0, -4.37114e-08, -1, 0, -1 )
+mesh = ExtResource( 21 )
+skeleton = NodePath("")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+
+[node name="CollisionShape2" type="CollisionShape" parent="Rooms/Hallway/Stairs/Walls"]
+transform = Transform( -4.37114e-08, 0, 1, 0, 2.5, 0, -1, 0, -4.37114e-08, -1, 0, -1 )
+shape = SubResource( 125 )
+
+[node name="Doors" type="Spatial" parent="Rooms/Hallway"]
+
+[node name="DoorHinge" type="Spatial" parent="Rooms/Hallway/Doors"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -7 )
+
+[node name="Door" type="StaticBody" parent="Rooms/Hallway/Doors/DoorHinge"]
+transform = Transform( 1, 0, 2.32831e-10, 0, 1, 0, 0, 0, 0.9, 0.156588, 0, 0.0065732 )
+
+[node name="Structure_Wall_Door" type="MeshInstance" parent="Rooms/Hallway/Doors/DoorHinge/Door"]
+transform = Transform( 8.30477e-08, 0, -1, 0, 1.1, 0, 1.1, 0, 7.54979e-08, -0.68054, 0, 0.375602 )
+mesh = ExtResource( 5 )
+skeleton = NodePath("../../../../../../Floor0/Structure_Floor")
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+
+[node name="CollisionShape" type="CollisionShape" parent="Rooms/Hallway/Doors/DoorHinge/Door"]
+transform = Transform( 8.30477e-08, 0, -1, 0, 1.1, 0, 1.1, 0, 7.54979e-08, -0.68054, 0, 0.375602 )
+shape = SubResource( 64 )
