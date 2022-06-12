@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Prop_Bathroom_Towel_Rack_Stocked.obj-85fc4e01326bc9f5f3ef3bd0f5ab92b1.mesh"
+
+[deps]
+
+files=[ "res://.import/Prop_Bathroom_Towel_Rack_Stocked.obj-85fc4e01326bc9f5f3ef3bd0f5ab92b1.mesh" ]
+
+source_file="res://assets/modular_house_collection/Prop_Bathroom_Towel_Rack_Stocked.obj"
+dest_files=[ "res://.import/Prop_Bathroom_Towel_Rack_Stocked.obj-85fc4e01326bc9f5f3ef3bd0f5ab92b1.mesh", "res://.import/Prop_Bathroom_Towel_Rack_Stocked.obj-85fc4e01326bc9f5f3ef3bd0f5ab92b1.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Structure_Roof_Center_Eave.obj-73e1e6f2a8cee5129fbf4e32e6b0368e.mesh"
+
+[deps]
+
+files=[ "res://.import/Structure_Roof_Center_Eave.obj-73e1e6f2a8cee5129fbf4e32e6b0368e.mesh" ]
+
+source_file="res://assets/modular_house_collection/Structure_Roof_Center_Eave.obj"
+dest_files=[ "res://.import/Structure_Roof_Center_Eave.obj-73e1e6f2a8cee5129fbf4e32e6b0368e.mesh", "res://.import/Structure_Roof_Center_Eave.obj-73e1e6f2a8cee5129fbf4e32e6b0368e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

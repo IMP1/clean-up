@@ -1,0 +1,41 @@
+# Design
+
+You're a cute little robot going around a house, cleaning up dirt.
+But you can't move around completely freely. There are movement vectors that slow you down in certain directions.
+
+That's kinda it. Could add some story and have the robot try to gain some kind of independence.
+
+## Movement
+
+Maybe there's two fields. An offset, and a multiplier.
+
+The offset "pushes" the player's momevent in a certain direction based off RG values (R = red pixel value, X = x offset, same for G and Y and B and Z)
+
+R       X
+----------
+0       -1
+0.5     0
+1       1
+
+X = 2 * (R - 0.5)
+
+The multiplier affects the speed (R = red pixel value, V = speed multiplier)
+
+R       V
+----------
+0       0
+0.5     1
+1       2
+
+
+
+## Credits
+
+Anonymous Pro Font
+https://fonts.google.com/specimen/Anonymous+Pro?category=Monospace&preview.text=Initialising%20camera%20functionality...&preview.text_type=custom
+
+Robot start-up sound
+https://freesound.org/people/Wricken/sounds/493700/
+
+Robot movement sound
+https://freesound.org/people/AMPUL/sounds/29721/
